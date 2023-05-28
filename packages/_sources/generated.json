@@ -1,24 +1,4 @@
 {
-    "commitizen": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "commitizen",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "commitizen-tools",
-            "repo": "commitizen",
-            "rev": "3.2.2",
-            "sha256": "sha256-OHz1n4VTtjeTwuOPNtSh1J+BOz1mL7D+Xz4Qsul7W8I=",
-            "type": "github"
-        },
-        "version": "3.2.2"
-    },
     "gh-poi": {
         "cargoLocks": null,
         "date": null,
