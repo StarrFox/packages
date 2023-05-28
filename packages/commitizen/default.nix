@@ -3,7 +3,6 @@
   charset-normalizer,
   colorama,
   decli,
-  fetchFromGitHub,
   jinja2,
   packaging,
   poetry-core,
@@ -14,7 +13,7 @@
   typing-extensions,
   argcomplete,
   importlib-metadata,
-  source
+  source,
 }:
 buildPythonApplication rec {
   inherit (source) pname version src;
