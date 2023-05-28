@@ -21,7 +21,7 @@
   rsync,
   source,
 }: let
-# TODO: figure out how to automatically update this
+  # TODO: figure out how to automatically update this
   patterns_src = fetchFromGitHub {
     owner = "WerWolv";
     repo = "ImHex-Patterns";

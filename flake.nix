@@ -3,10 +3,12 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
-  outputs = {self, nixpkgs}: let
+  outputs = {
+    nixpkgs,
+    ...
+  }: let
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
-  in
-  {
+  in {
     packages.x86_64-linux = import ./packages {inherit pkgs;};
 
     devShells.x86_64-linux = {
