@@ -9,4 +9,5 @@
 in {
   imhex = pkgs.callPackage ./imhex {source = source.imhex;};
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
+  commitizen = pkgs.python3Packages.callPackage ./commitizen {source = source.commitizen;};
 }
