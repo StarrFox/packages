@@ -1,4 +1,4 @@
-default: update
+default: update check
 
 check:
     nix flake check
