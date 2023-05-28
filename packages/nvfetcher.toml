@@ -1,0 +1,4 @@
+[imhex]
+src.github = "WerWolv/imhex"
+fetch.github = "WerWolv/imhex"
+git.fetchSubmodules = true
