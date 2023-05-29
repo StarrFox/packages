@@ -12,7 +12,6 @@
   file,
   perl,
   python3,
-  jansson,
   curl,
   fmt_8,
   nlohmann_json,
@@ -34,7 +33,6 @@ gcc12Stdenv.mkDerivation rec {
     fmt_8
     glfw3
     gtk3
-    jansson
     libGLU
     mbedtls
     nlohmann_json
