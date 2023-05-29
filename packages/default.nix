@@ -7,7 +7,10 @@
     #dockerTools = pkgs.dockerTools;
   };
 in {
-  imhex = pkgs.callPackage ./imhex {source = source.imhex;};
+  imhex = pkgs.callPackage ./imhex {
+    source = source.imhex;
+    patterns_source = source.imhex-patterns;
+  };
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
   commitizen = pkgs.python3Packages.callPackage ./commitizen {source = source.commitizen;};
 }
