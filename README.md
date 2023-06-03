@@ -24,3 +24,7 @@ $ nix run github:StarrFox/packages#<package name>
 [Commitizen](https://github.com/commitizen-tools/commitizen)
 
 [Gh-Poi](https://github.com/seachicken/gh-poi)
+
+[Plcli](https://github.com/WerWolv/PatternLanguage/tree/master/cli)
+
+cli version of imhex's pattern language
