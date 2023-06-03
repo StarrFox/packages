@@ -13,4 +13,5 @@ in {
   };
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
   commitizen = pkgs.python3Packages.callPackage ./commitizen {source = source.commitizen;};
+  plcli = pkgs.callPackage ./plcli {source=source.imhex-patterns;};
 }
