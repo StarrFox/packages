@@ -1,7 +1,7 @@
 {pkgs, ...}: let
   source = import ./_sources/generated.nix {
     # TODO: make deadnix not remove these from generated.nix
-    #fetchurl = pkgs.fetchurl;
+    fetchurl = pkgs.fetchurl;
     #fetchgit = pkgs.fetchgit;
     fetchFromGitHub = pkgs.fetchFromGitHub;
     #dockerTools = pkgs.dockerTools;
@@ -14,4 +14,5 @@ in {
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
   commitizen = pkgs.python3Packages.callPackage ./commitizen {source = source.commitizen;};
   plcli = pkgs.callPackage ./plcli {source = source.plcli;};
+  vscord = (pkgs.callPackage ./vscord {source = source.vscord;}).vscord;
 }
