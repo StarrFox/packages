@@ -12,20 +12,21 @@ jobs:
             - name: Install nix
               uses: cachix/install-nix-action@master
               with:
+                install_url: https://nixos.org/nix/install
                 extra_nix_config: experimental-features = nix-command flakes
                 nix_path: nixpkgs=flake:nixpkgs
 
             - run: cat /etc/nix/nix.conf
-            - run: nix flake update
+            # - run: nix flake update
             - run: nix run nixpkgs#hello
             - run: nix run nixpkgs#nix-prefetch -- fetchFromGitHub --owner WerWolv --repo ImHex-Patterns --rev ImHex-v1.29.0 --extra-experimental-features flakes
             - run: nix develop --command just update-packages
-            - run: nix develop --command just format
-            - name: Create PR
-              uses: peter-evans/create-pull-request@v5
-              with:
-                title: "update packages and lock"
-                branch: update
-                branch-suffix: timestamp
-                delete-branch: true
-                reviewers: StarrFox
+            # - run: nix develop --command just format
+            # - name: Create PR
+            #   uses: peter-evans/create-pull-request@v5
+            #   with:
+            #     title: "update packages and lock"
+            #     branch: update
+            #     branch-suffix: timestamp
+            #     delete-branch: true
+            #     reviewers: StarrFox
