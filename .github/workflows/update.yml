@@ -19,7 +19,7 @@ jobs:
 
             - run: nix flake update
             - run: nix run nixpkgs#nix-prefetch -- fetchFromGitHub --owner WerWolv --repo ImHex-Patterns --rev ImHex-v1.29.0
-            - run: nix run --impure nixpkgs#nvfetcher -- --config packages/nvfetcher.toml --build-dir packages/_sources/
+            - run: nix develop --command just update-packages
             - run: nix develop --command just format
             - name: Create PR
               uses: peter-evans/create-pull-request@v5
