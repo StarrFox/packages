@@ -4,7 +4,7 @@ check:
     nix flake check
 
 update-packages: && format
-    nvfetcher --config packages/nvfetcher.toml --build-dir packages/_sources/
+    nvfetcher --config packages/nvfetcher.toml --build-dir packages/_sources/ --verbose
 
 update: && update-packages
     nix flake update
