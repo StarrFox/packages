@@ -15,10 +15,11 @@ jobs:
               uses: cachix/install-nix-action@v20
               with:
                 extra_nix_config: experimental-features = nix-command flakes
-                nix_path: nixpkgs=channel:nixos-unstable
+                nix_path: nixpkgs=channel:nixos-22.11
 
             - run: nix flake update
             - run: nix run --impure nixpkgs#nvfetcher -- --config packages/nvfetcher.toml --build-dir packages/_sources/
+            - run: nix develop --command just format
             - name: Create PR
               uses: peter-evans/create-pull-request@v5
               with:
