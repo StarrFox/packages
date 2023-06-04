@@ -16,8 +16,9 @@ jobs:
               with:
                 install_url: https://nixos.org/nix/install
                 extra_nix_config: experimental-features = nix-command flakes
+                nix_path: nixpkgs=channel:nixos-unstable
 
-            - run: nix develop --command just update
+            - run: nix develop --impure --command just update
             - name: Create PR
               uses: peter-evans/create-pull-request@v5
               with:
