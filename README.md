@@ -21,6 +21,14 @@ $ nix run github:StarrFox/packages#<package name>
 
 there is a binary cache at <https://starrfox.cachix.org>
 
+## Adding a package
+
+- create a nvfetcher entry in packages/nvfetcher.toml
+- create packages/\<name>/default.nix
+- add package to packages/default.nix
+- add package to .github/workflows/cachix.yml
+- add package to [Current packages](#current-packages)
+
 ## Current packages
 
 [ImHex](https://github.com/WerWolv/ImHex)
