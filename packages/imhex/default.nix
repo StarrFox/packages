@@ -20,7 +20,7 @@
   source,
   patterns_source,
 }:
-gcc12Stdenv.mkDerivation rec {
+gcc12Stdenv.mkDerivation {
   inherit (source) pname version src;
 
   nativeBuildInputs = [cmake llvm python3 perl pkg-config rsync];

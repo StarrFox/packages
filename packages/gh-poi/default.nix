@@ -2,7 +2,7 @@
   buildGoModule,
   source,
 }:
-buildGoModule rec {
+buildGoModule {
   inherit (source) pname version src vendorSha256;
   doCheck = false;
 }

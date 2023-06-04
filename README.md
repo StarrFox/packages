@@ -28,3 +28,5 @@ $ nix run github:StarrFox/packages#<package name>
 [Plcli](https://github.com/WerWolv/PatternLanguage/tree/master/cli)
 
 cli version of imhex's pattern language
+
+[Vscord](https://github.com/LeonardSSH/vscord)

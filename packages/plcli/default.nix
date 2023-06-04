@@ -5,7 +5,7 @@
   pkg-config,
   source,
 }:
-gcc12Stdenv.mkDerivation rec {
+gcc12Stdenv.mkDerivation {
   inherit (source) pname version src;
 
   nativeBuildInputs = [cmake llvm pkg-config];
