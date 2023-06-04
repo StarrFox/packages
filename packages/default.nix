@@ -1,10 +1,9 @@
 {pkgs, ...}: let
   source = import ./_sources/generated.nix {
-    # TODO: make deadnix not remove these from generated.nix
     fetchurl = pkgs.fetchurl;
-    #fetchgit = pkgs.fetchgit;
+    fetchgit = pkgs.fetchgit;
     fetchFromGitHub = pkgs.fetchFromGitHub;
-    #dockerTools = pkgs.dockerTools;
+    dockerTools = pkgs.dockerTools;
   };
 in {
   imhex = pkgs.callPackage ./imhex {

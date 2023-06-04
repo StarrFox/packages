@@ -11,4 +11,4 @@ update: && update-packages
 
 format:
     alejandra .
-    deadnix . --edit
+    deadnix . --edit --exclude ./packages/_sources/generated.nix
