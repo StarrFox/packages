@@ -3,11 +3,28 @@ on:
   push:
 
 jobs:
+  generate_matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      packages: ${{ steps.generate_packages }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@main
+      - name: generate flake.json
+        run: nix flake show --json > flake.json
+      - id: generate_packages
+        run: |
+          packages=$(jq -c '.packages."x86_64-linux" | keys' < flake.json)
+          printf "::set-output name=packages::%s" "$packages"
+
   build:
+    needs: [generate_matrix]
     strategy:
       fail-fast: false
+      max-parallel: 5
       matrix:
-        package: [ "imhex", "commitizen", "gh-poi", "plcli", "vscord" ]
+        package: ${{fromJson(needs.generate_matrix.outputs.packages)}}
 
     runs-on: ubuntu-latest
     steps:

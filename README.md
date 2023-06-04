@@ -26,7 +26,6 @@ there is a binary cache at <https://starrfox.cachix.org>
 - create a nvfetcher entry in packages/nvfetcher.toml
 - create packages/\<name>/default.nix
 - add package to packages/default.nix
-- add package to .github/workflows/cachix.yml
 - add package to [Current packages](#current-packages)
 
 ## Current packages
@@ -40,3 +39,7 @@ there is a binary cache at <https://starrfox.cachix.org>
 [Plcli](https://github.com/WerWolv/PatternLanguage/tree/master/cli): cli version of imhex's pattern language
 
 [Vscord](https://github.com/LeonardSSH/vscord)
+
+## Resources
+
+[Nobbz's package action](https://github.com/NobbZ/nixos-config/blob/4acd7fe978495e25a228586c380160be91d6bd63/.github/workflows/flake-update.yml#L9-L39)
