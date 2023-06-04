@@ -10,11 +10,12 @@ jobs:
         steps:
             - uses: actions/checkout@v3
             - name: Install nix
-              uses: cachix/install-nix-action@v20
+              uses: cachix/install-nix-action@master
               with:
                 extra_nix_config: experimental-features = nix-command flakes
                 nix_path: nixpkgs=flake:nixpkgs
 
+            - run: cat /etc/nix/nix.conf
             - run: nix flake update
             - run: nix run nixpkgs#nix-prefetch -- fetchFromGitHub --owner WerWolv --repo ImHex-Patterns --rev ImHex-v1.29.0
             - run: nix develop --command just update-packages
