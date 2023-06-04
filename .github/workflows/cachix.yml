@@ -1,8 +1,14 @@
 name: "cachix"
 on:
   push:
+
 jobs:
-  tests:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        package: [ "imhex", "commitizen", "gh-poi", "plcli", "vscord" ]
+
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -12,8 +18,4 @@ jobs:
       with:
         name: starrfox
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
-    - run: nix build .#imhex
-    - run: nix build .#commitizen
-    - run: nix build .#gh-poi
-    - run: nix build .#plcli
-    - run: nix build .#vscord
+    - run: nix build .#${{ matrix.package }}

@@ -1,8 +1,8 @@
-# packages
+# Packages
 
 nix packages
 
-## usage
+## Usage
 
 to update the packages in this repo do
 
@@ -17,6 +17,10 @@ to use them just to
 $ nix run github:StarrFox/packages#<package name>
 ```
 
+## Binary Cache
+
+there is a binary cache at <https://starrfox.cachix.org>
+
 ## Current packages
 
 [ImHex](https://github.com/WerWolv/ImHex)
@@ -25,8 +29,6 @@ $ nix run github:StarrFox/packages#<package name>
 
 [Gh-Poi](https://github.com/seachicken/gh-poi)
 
-[Plcli](https://github.com/WerWolv/PatternLanguage/tree/master/cli)
-
-cli version of imhex's pattern language
+[Plcli](https://github.com/WerWolv/PatternLanguage/tree/master/cli): cli version of imhex's pattern language
 
 [Vscord](https://github.com/LeonardSSH/vscord)
