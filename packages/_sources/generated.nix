@@ -61,6 +61,15 @@
       sha256 = "sha256-1YPtffk8VmBnc1OeUwgH6otaT2T2oEp5/o3zVNgTcec=";
     };
   };
+  vscode-zig = {
+    pname = "vscode-zig";
+    version = "0.3.2";
+    src = fetchurl {
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.3.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.3.2.zip";
+      sha256 = "sha256-szG/Fm86RWWNITIYNvCQmEv8tx2VCAxtkXyQrb7Wsn4=";
+    };
+  };
   vscord = {
     pname = "vscord";
     version = "5.1.10";

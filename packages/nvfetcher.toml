@@ -24,3 +24,7 @@ fetch.github = "commitizen-tools/commitizen"
 [vscord]
 src.vsmarketplace = "LeonardSSH.vscord"
 fetch.vsmarketplace = "LeonardSSH.vscord"
+
+[vscode-zig]
+src.vsmarketplace = "ziglang.vscode-zig"
+fetch.vsmarketplace = "ziglang.vscode-zig"

@@ -101,6 +101,21 @@
         },
         "version": "ImHex-v1.29.0"
     },
+    "vscode-zig": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "vscode-zig",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": "vscode-zig-0.3.2.zip",
+            "sha256": "sha256-szG/Fm86RWWNITIYNvCQmEv8tx2VCAxtkXyQrb7Wsn4=",
+            "type": "url",
+            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.3.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.3.2"
+    },
     "vscord": {
         "cargoLocks": null,
         "date": null,

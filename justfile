@@ -1,4 +1,5 @@
-default: update check
+default:
+    just --list
 
 check:
     nix flake check
@@ -6,7 +7,7 @@ check:
 update-packages: && format
     nvfetcher --config packages/nvfetcher.toml --build-dir packages/_sources/ --verbose
 
-update: && update-packages
+update: && update-packages check
     nix flake update
 
 format:
