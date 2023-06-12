@@ -13,3 +13,7 @@ update: && update-packages check
 format:
     alejandra .
     deadnix . --edit --exclude ./packages/_sources/generated.nix
+
+new name:
+    mkdir "packages/{{name}}"
+    nix-init packages/{{name}}

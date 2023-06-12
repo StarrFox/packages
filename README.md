@@ -7,14 +7,13 @@ nix packages
 to update the packages in this repo do
 
 ```shell
-$ nix develop
-$ just
+nix develop -c just update
 ```
 
 to use them just to
 
 ```shell
-$ nix run github:StarrFox/packages#<package name>
+nix run github:StarrFox/packages#<package name>
 ```
 
 ## Binary Cache
@@ -24,7 +23,8 @@ there is a binary cache at <https://starrfox.cachix.org>
 ## Adding a package
 
 - create a nvfetcher entry in packages/nvfetcher.toml
-- create packages/\<name>/default.nix
+- run `just new <name>`
+- edit `packages/<name>/default.nix` to use the generated src
 - add package to packages/default.nix
 - add package to [Current packages](#current-packages)
 

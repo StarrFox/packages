@@ -17,6 +17,7 @@
           deadnix
           rnix-lsp
           nvfetcher
+          nix-init
         ];
       };
     };
