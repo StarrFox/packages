@@ -7,7 +7,7 @@ nix packages
 to update the packages in this repo do
 
 ```shell
-nix develop -c just update
+nix develop --command just update
 ```
 
 to use them just to
