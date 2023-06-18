@@ -1,25 +1,27 @@
 {
+  description = "starrpkgs";
+
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    flake-parts.url = "github:hercules-ci/flake-parts/";
+    nix-systems.url = "github:nix-systems/default";
   };
 
-  outputs = {nixpkgs, ...}: let
-    pkgs = nixpkgs.legacyPackages.x86_64-linux;
-  in {
-    packages.x86_64-linux = import ./packages {inherit pkgs;};
+  outputs = inputs @ {
+    flake-parts,
+    nix-systems,
+    ...
+  }:
+    flake-parts.lib.mkFlake {inherit inputs;} {
+      debug = true;
+      systems = import nix-systems;
+      perSystem = {pkgs, ...}: {
+        packages = import ./packages {inherit pkgs;};
 
-    devShells.x86_64-linux = {
-      default = pkgs.mkShell {
-        name = "starr-packages";
-        packages = with pkgs; [
-          alejandra
-          just
-          deadnix
-          rnix-lsp
-          nvfetcher
-          nix-init
-        ];
+        devShells.default = pkgs.mkShell {
+          name = "starr-packages";
+          packages = with pkgs; [alejandra just deadnix nil nvfetcher nix-init];
+        };
       };
     };
-  };
 }
