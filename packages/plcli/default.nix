@@ -3,10 +3,18 @@
   cmake,
   llvm,
   pkg-config,
-  source,
+  fetchFromGitHub,
 }:
 gcc12Stdenv.mkDerivation {
-  inherit (source) pname version src;
+  pname = "plcli";
+  version = "ImHex-v1.29.0";
+  src = fetchFromGitHub {
+    owner = "WerWolv";
+    repo = "PatternLanguage";
+    rev = "ImHex-v1.29.0";
+    fetchSubmodules = true;
+    sha256 = "sha256-1YPtffk8VmBnc1OeUwgH6otaT2T2oEp5/o3zVNgTcec=";
+  };
 
   nativeBuildInputs = [cmake llvm pkg-config];
 

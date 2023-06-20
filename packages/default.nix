@@ -1,18 +1,8 @@
-{pkgs, ...}: let
-  source = import ./_sources/generated.nix {
-    fetchurl = pkgs.fetchurl;
-    fetchgit = pkgs.fetchgit;
-    fetchFromGitHub = pkgs.fetchFromGitHub;
-    dockerTools = pkgs.dockerTools;
-  };
-in {
-  imhex = pkgs.callPackage ./imhex {
-    source = source.imhex;
-    patterns_source = source.imhex-patterns;
-  };
-  gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
-  commitizen = pkgs.python3Packages.callPackage ./commitizen {source = source.commitizen;};
-  plcli = pkgs.callPackage ./plcli {source = source.plcli;};
-  vscord = (pkgs.callPackage ./vscord {source = source.vscord;}).vscord;
-  vscode-zig = (pkgs.callPackage ./vscode-zig {source = source.vscode-zig;}).vscode-zig;
+{pkgs, ...}: {
+  imhex = pkgs.callPackage ./imhex {};
+  gh-poi = pkgs.callPackage ./gh-poi {};
+  commitizen = pkgs.python3Packages.callPackage ./commitizen {};
+  plcli = pkgs.callPackage ./plcli {};
+  vscord = (pkgs.callPackage ./vscord {}).vscord;
+  vscode-zig = (pkgs.callPackage ./vscode-zig {}).vscode-zig;
 }

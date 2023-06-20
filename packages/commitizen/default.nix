@@ -13,10 +13,18 @@
   typing-extensions,
   argcomplete,
   importlib-metadata,
-  source,
+  fetchFromGitHub,
 }:
-buildPythonApplication rec {
-  inherit (source) pname version src;
+buildPythonApplication {
+  pname = "commitizen";
+  version = "3.3.0";
+  src = fetchFromGitHub {
+    owner = "commitizen-tools";
+    repo = "commitizen";
+    rev = "3.3.0";
+    fetchSubmodules = false;
+    sha256 = "sha256-Biyk628roeBp+qbxnh4iPuTZ+C4VQSTIAt7f+Zv17F4=";
+  };
 
   format = "pyproject";
 
