@@ -7,24 +7,24 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.3.0";
+    version = "3.4.0";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.3.0";
+      rev = "3.4.0";
       fetchSubmodules = false;
-      sha256 = "sha256-Biyk628roeBp+qbxnh4iPuTZ+C4VQSTIAt7f+Zv17F4=";
+      sha256 = "sha256-EtexyZF3ySSPuFiBy6RPE57RoVUJe/Eu8VkTq/aZK0E=";
     };
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.9.2";
+    version = "v0.9.3";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.9.2";
+      rev = "v0.9.3";
       fetchSubmodules = false;
-      sha256 = "sha256-gRNoBbAYLLMD7UJPDvQHWR6jrt7RV3C0AZLAzaw1V1w=";
+      sha256 = "sha256-Oh0l+WUj2G6EBhyhF1YVlyTsbH9eyK0R5heAfp6zUUc=";
     };
     vendorSha256 = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
@@ -63,11 +63,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.4.0";
+    version = "0.4.1";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.4.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.4.0.zip";
-      sha256 = "sha256-03jBiss14kSkYdbC8IzrBWBgL4Js7xDOwog1WiyNPHk=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.4.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.4.1.zip";
+      sha256 = "sha256-2cB9EFjcEBaFCxnLGDCbKJOHlOXmWjvSO9KYo1wmTLg=";
     };
   };
   vscord = {
