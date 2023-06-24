@@ -7,13 +7,13 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.4.0";
+    version = "3.5.1";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.4.0";
+      rev = "3.5.1";
       fetchSubmodules = false;
-      sha256 = "sha256-EtexyZF3ySSPuFiBy6RPE57RoVUJe/Eu8VkTq/aZK0E=";
+      sha256 = "sha256-QQ9TR5y0FyeXzX74H/u4x9CwlMThLcRA14EYy/nCc70=";
     };
   };
   gh-poi = {
@@ -30,35 +30,35 @@
   };
   imhex = {
     pname = "imhex";
-    version = "v1.29.0";
+    version = "v1.30.1";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.29.0";
+      rev = "v1.30.1";
       fetchSubmodules = true;
-      sha256 = "sha256-dghyv7rpqGs5dt51ziAaeb/Ba7rGEcJ54AYKRJ2xXuk=";
+      sha256 = "sha256-3s9Dgdhl+k2KjMoSHNl59YOoCEwqK+37DOzKdGP88/4=";
     };
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.29.0";
+    version = "ImHex-v1.30.1";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.29.0";
+      rev = "ImHex-v1.30.1";
       fetchSubmodules = false;
-      sha256 = "sha256-lTTXu9RxoD582lXWI789gNcWvJmxmBIlBRIiyY3DseM=";
+      sha256 = "sha256-W+6CjakG6cgOxCCcMYFff7Z6VWkEf0krmBr7BKucpCE=";
     };
   };
   plcli = {
     pname = "plcli";
-    version = "ImHex-v1.29.0";
+    version = "ImHex-v1.30.1";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "PatternLanguage";
-      rev = "ImHex-v1.29.0";
+      rev = "ImHex-v1.30.1";
       fetchSubmodules = true;
-      sha256 = "sha256-1YPtffk8VmBnc1OeUwgH6otaT2T2oEp5/o3zVNgTcec=";
+      sha256 = "sha256-dYcdBlYydOAJ4dEODCB+GLkmbbdXjwtBOgQmjmz7irk=";
     };
   };
   vscode-zig = {
@@ -72,11 +72,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.1.10";
+    version = "5.1.11";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.1.10.zip";
-      sha256 = "sha256-fcRDOCzQWLllJ8gxSwj5XwDecgQijk9g9KkvwOn+g9s=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.1.11.zip";
+      sha256 = "sha256-OGod6ZO5otdDjlOro30Sd39w9p5asFkNAMKVoNgZILE=";
     };
   };
 }
