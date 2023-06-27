@@ -7,13 +7,13 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.5.1";
+    version = "3.5.2";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.5.1";
+      rev = "3.5.2";
       fetchSubmodules = false;
-      sha256 = "sha256-QQ9TR5y0FyeXzX74H/u4x9CwlMThLcRA14EYy/nCc70=";
+      sha256 = "sha256-4m3NCnGUX9lHCk6czwzxXLqf8GLi2u2A/crBZYTyplA=";
     };
   };
   gh-poi = {
@@ -63,11 +63,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.4.1";
+    version = "0.4.2";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.4.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.4.1.zip";
-      sha256 = "sha256-2cB9EFjcEBaFCxnLGDCbKJOHlOXmWjvSO9KYo1wmTLg=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.4.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.4.2.zip";
+      sha256 = "sha256-25ZBVrZ5HEoe5EllvaS8WYUcbO5vqcscEU2bYBuNpkw=";
     };
   };
   vscord = {
