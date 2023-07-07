@@ -18,13 +18,13 @@
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.9.3";
+    version = "v0.9.4";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.9.3";
+      rev = "v0.9.4";
       fetchSubmodules = false;
-      sha256 = "sha256-Oh0l+WUj2G6EBhyhF1YVlyTsbH9eyK0R5heAfp6zUUc=";
+      sha256 = "sha256-Tu0OfjjNKWPNnVUp5Mvgk7W/NjDAEglMpJ+wyAzUoXQ=";
     };
     vendorSha256 = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
@@ -72,11 +72,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.1.11";
+    version = "5.1.12";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.1.11.zip";
-      sha256 = "sha256-OGod6ZO5otdDjlOro30Sd39w9p5asFkNAMKVoNgZILE=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.1.12.zip";
+      sha256 = "sha256-H0digp+J0xkgyFboC6V+DAxPgtgqImX3GOldViEvGNk=";
     };
   };
 }
