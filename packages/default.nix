@@ -15,5 +15,4 @@ in {
   plcli = pkgs.callPackage ./plcli {source = source.plcli;};
   vscord = (pkgs.callPackage ./vscord {source = source.vscord;}).vscord;
   vscode-zig = (pkgs.callPackage ./vscode-zig {source = source.vscode-zig;}).vscode-zig;
-  atlauncher = pkgs.callPackage ./atlauncher {};
 }
