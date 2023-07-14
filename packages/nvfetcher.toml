@@ -28,3 +28,7 @@ fetch.vsmarketplace = "LeonardSSH.vscord"
 [vscode-zig]
 src.vsmarketplace = "ziglang.vscode-zig"
 fetch.vsmarketplace = "ziglang.vscode-zig"
+
+[mrpack-install]
+src.github = "nothub/mrpack-install"
+fetch.github = "nothub/mrpack-install"

@@ -40,6 +40,8 @@ there is a binary cache at <https://starrfox.cachix.org>
 
 [Vscord](https://github.com/LeonardSSH/vscord)
 
+[Mrpack-install](https://github.com/nothub/mrpack-install)
+
 ## Resources
 
 [Nobbz's package action](https://github.com/NobbZ/nixos-config/blob/4acd7fe978495e25a228586c380160be91d6bd63/.github/workflows/flake-update.yml#L9-L39)

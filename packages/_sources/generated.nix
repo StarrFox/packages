@@ -50,6 +50,17 @@
       sha256 = "sha256-W+6CjakG6cgOxCCcMYFff7Z6VWkEf0krmBr7BKucpCE=";
     };
   };
+  mrpack-install = {
+    pname = "mrpack-install";
+    version = "v0.16.7";
+    src = fetchFromGitHub {
+      owner = "nothub";
+      repo = "mrpack-install";
+      rev = "v0.16.7";
+      fetchSubmodules = false;
+      sha256 = "sha256-aGIfCd5k8zCKwi/U2Ry4d+9ff4zmFTfl8W0n0m0IJwQ=";
+    };
+  };
   plcli = {
     pname = "plcli";
     version = "ImHex-v1.30.1";
