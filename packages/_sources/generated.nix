@@ -83,11 +83,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.1.12";
+    version = "5.1.13";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.1.12.zip";
-      sha256 = "sha256-H0digp+J0xkgyFboC6V+DAxPgtgqImX3GOldViEvGNk=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.13/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.1.13.zip";
+      sha256 = "sha256-on0pSJ974LwxdX1ph3onhLrjFhkYVisbAHKU/wHDqJg=";
     };
   };
 }
