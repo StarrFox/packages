@@ -7,13 +7,13 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.5.2";
+    version = "3.5.3";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.5.2";
+      rev = "3.5.3";
       fetchSubmodules = false;
-      sha256 = "sha256-4m3NCnGUX9lHCk6czwzxXLqf8GLi2u2A/crBZYTyplA=";
+      sha256 = "sha256-AnxefCIcneY2UQtaNbPdCtscOZhdmlAqbVggWuGaM44=";
     };
   };
   gh-poi = {
@@ -83,11 +83,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.1.13";
+    version = "5.1.14";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.13/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.1.13.zip";
-      sha256 = "sha256-on0pSJ974LwxdX1ph3onhLrjFhkYVisbAHKU/wHDqJg=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.14/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.1.14.zip";
+      sha256 = "sha256-Rvyhg1Lam1yLBhVqp6Cl47WGXCWvfIT57OXIGF4Tlks=";
     };
   };
 }

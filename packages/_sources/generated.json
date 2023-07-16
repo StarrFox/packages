@@ -13,11 +13,11 @@
             "name": null,
             "owner": "commitizen-tools",
             "repo": "commitizen",
-            "rev": "3.5.2",
-            "sha256": "sha256-4m3NCnGUX9lHCk6czwzxXLqf8GLi2u2A/crBZYTyplA=",
+            "rev": "3.5.3",
+            "sha256": "sha256-AnxefCIcneY2UQtaNbPdCtscOZhdmlAqbVggWuGaM44=",
             "type": "github"
         },
-        "version": "3.5.2"
+        "version": "3.5.3"
     },
     "gh-poi": {
         "cargoLocks": null,
@@ -144,11 +144,11 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscord-5.1.13.zip",
-            "sha256": "sha256-on0pSJ974LwxdX1ph3onhLrjFhkYVisbAHKU/wHDqJg=",
+            "name": "vscord-5.1.14.zip",
+            "sha256": "sha256-Rvyhg1Lam1yLBhVqp6Cl47WGXCWvfIT57OXIGF4Tlks=",
             "type": "url",
-            "url": "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.13/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.1.14/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "5.1.13"
+        "version": "5.1.14"
     }
 }
