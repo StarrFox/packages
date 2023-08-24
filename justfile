@@ -14,6 +14,12 @@ update-packages: && format
 update: && update-packages check
     nix flake update
 
+# update, commit, and push
+full: update
+    git add .
+    git commit -am "update"
+    git push
+
 # format with alejandra
 format:
     alejandra .
