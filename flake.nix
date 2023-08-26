@@ -3,7 +3,7 @@
 
   inputs = {
     # TODO: make sure to update this every os release
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts/";
     nix-systems.url = "github:nix-systems/default";
   };
@@ -21,7 +21,7 @@
 
         devShells.default = pkgs.mkShell {
           name = "starr-packages";
-          packages = with pkgs; [alejandra just deadnix nil nvfetcher nix-init];
+          packages = with pkgs; [alejandra just deadnix nil nix-init nix-update];
         };
       };
     };

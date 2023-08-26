@@ -29,11 +29,11 @@
 in
   gcc12Stdenv.mkDerivation {
     pname = "imhex";
-    version = "v1.29.0";
+    version = "1.30.1";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.29.0";
+      rev = "v1.30.1";
       fetchSubmodules = true;
       sha256 = "sha256-dghyv7rpqGs5dt51ziAaeb/Ba7rGEcJ54AYKRJ2xXuk=";
     };
