@@ -13,11 +13,11 @@
             "name": null,
             "owner": "commitizen-tools",
             "repo": "commitizen",
-            "rev": "3.6.0",
-            "sha256": "sha256-2pzlfW7+0Gj3JK7igymcObC7/vg1kMfxD3q644H6i+k=",
+            "rev": "3.7.0",
+            "sha256": "sha256-KfPIGQ4kIjV/Vuza5wdzp0R62LUluJQ5tY6I8BPFmGk=",
             "type": "github"
         },
-        "version": "3.6.0"
+        "version": "3.7.0"
     },
     "gh-poi": {
         "cargoLocks": null,
