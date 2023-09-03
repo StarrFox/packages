@@ -9,13 +9,8 @@ jobs:
     
         steps:
             - uses: actions/checkout@v3
-            - name: Install nix
-              uses: cachix/install-nix-action@master
-              with:
-                install_url: https://nixos.org/nix/install
-                extra_nix_config: experimental-features = nix-command flakes
-                nix_path: nixpkgs=flake:nixpkgs
-
+            - name: Install Nix
+              uses: DeterminateSystems/nix-installer-action@main
             - run: cat /etc/nix/nix.conf
             # - run: nix flake update
             #- run: nix run nixpkgs#hello
