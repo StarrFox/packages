@@ -6,11 +6,13 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
     flake-parts.url = "github:hercules-ci/flake-parts/";
     nix-systems.url = "github:nix-systems/default";
+    nvfetcher.url = "github:berberman/nvfetcher";
   };
 
   outputs = inputs @ {
     flake-parts,
     nix-systems,
+    nvfetcher,
     ...
   }:
     flake-parts.lib.mkFlake {inherit inputs;} {
@@ -21,7 +23,14 @@
 
         devShells.default = pkgs.mkShell {
           name = "starr-packages";
-          packages = with pkgs; [alejandra just deadnix nil nvfetcher nix-init];
+          packages = with pkgs; [
+            alejandra
+            just
+            deadnix
+            nil
+            nvfetcher.packages.${pkgs.system}.default
+            nix-init
+          ];
         };
       };
     };
