@@ -20,7 +20,6 @@ jobs:
             - run: nix flake update
             - run: nix develop --command just update-packages
             - run: nix develop --command just format
-            - run: git commit -am "update"
             - name: Create PR
               uses: peter-evans/create-pull-request@v5
               with:
