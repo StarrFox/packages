@@ -23,7 +23,8 @@ jobs:
             - run: cat /etc/nix/nix.conf
             #- run: nix flake update
             #- run: nix run nixpkgs#hello
-            - run: nix shell nixpkgs/nixos-23.05#nix-prefetch -c nix-prefetch fetchFromGitHub --owner WerWolv --repo ImHex-Patterns --rev ImHex-v1.29.0 --extra-experimental-features flakes
+            - run: nix shell nixpkgs#nix-prefetch -c nix-prefetch --option extra-experimental-features flakes fetchFromGitHub --owner WerWolv --repo ImHex-Patterns --rev ImHex-v1.29.0
+            #- run: nix shell nixpkgs/nixos-23.05#nix-prefetch -c nix-prefetch fetchFromGitHub --owner WerWolv --repo ImHex-Patterns --rev ImHex-v1.29.0 --extra-experimental-features flakes
             #- run: nix run nixpkgs#nix-prefetch -- --version
             #- run: nix run nixpkgs#nix-prefetch -- fetchFromGitHub --owner WerWolv --repo ImHex-Patterns --rev ImHex-v1.29.0 --show-trace --extra-experimental-features flakes
             #- run: nix develop --command just update-packages
