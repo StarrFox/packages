@@ -6,7 +6,7 @@ on:
       - cron: "0 0 1,15 * *"
 
 permissions:
-    pull-requests: write|read
+    pull-requests: write
 
 jobs:
     update:
