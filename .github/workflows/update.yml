@@ -5,6 +5,9 @@ on:
     schedule:
       - cron: "0 0 1,15 * *"
 
+permissions:
+    pull-requests: write|read
+
 jobs:
     update:
         runs-on: ubuntu-latest
