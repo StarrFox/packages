@@ -1,7 +1,6 @@
 name: "check flake"
 
 on:
-    pull_request:
     push:
         branches: [main]
   
