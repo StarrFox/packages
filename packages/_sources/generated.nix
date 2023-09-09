@@ -7,24 +7,24 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.7.0";
+    version = "3.8.2";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.7.0";
+      rev = "3.8.2";
       fetchSubmodules = false;
-      sha256 = "sha256-KfPIGQ4kIjV/Vuza5wdzp0R62LUluJQ5tY6I8BPFmGk=";
+      sha256 = "sha256-kaNaIzHax6yBeNE9XS1P2OyXBBUv3qFsrLO5SsTEWc8=";
     };
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.9.4";
+    version = "v0.9.5";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.9.4";
+      rev = "v0.9.5";
       fetchSubmodules = false;
-      sha256 = "sha256-Tu0OfjjNKWPNnVUp5Mvgk7W/NjDAEglMpJ+wyAzUoXQ=";
+      sha256 = "sha256-59Rpn7bX3R74owlNSWZs4DXPJ0b1N5O9slqBxs1m0lo=";
     };
     vendorSha256 = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
@@ -52,13 +52,13 @@
   };
   mrpack-install = {
     pname = "mrpack-install";
-    version = "v0.16.7";
+    version = "v0.16.8";
     src = fetchFromGitHub {
       owner = "nothub";
       repo = "mrpack-install";
-      rev = "v0.16.7";
+      rev = "v0.16.8";
       fetchSubmodules = false;
-      sha256 = "sha256-aGIfCd5k8zCKwi/U2Ry4d+9ff4zmFTfl8W0n0m0IJwQ=";
+      sha256 = "sha256-C5x5X5htvp8kk9rKYXyuuJ6Z/QQL4lMFroi05FI8hoA=";
     };
   };
   plcli = {
