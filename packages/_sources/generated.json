@@ -13,11 +13,11 @@
             "name": null,
             "owner": "commitizen-tools",
             "repo": "commitizen",
-            "rev": "3.7.0",
-            "sha256": "sha256-KfPIGQ4kIjV/Vuza5wdzp0R62LUluJQ5tY6I8BPFmGk=",
+            "rev": "3.8.2",
+            "sha256": "sha256-kaNaIzHax6yBeNE9XS1P2OyXBBUv3qFsrLO5SsTEWc8=",
             "type": "github"
         },
-        "version": "3.7.0"
+        "version": "3.8.2"
     },
     "gh-poi": {
         "cargoLocks": null,
@@ -35,11 +35,11 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.9.4",
-            "sha256": "sha256-Tu0OfjjNKWPNnVUp5Mvgk7W/NjDAEglMpJ+wyAzUoXQ=",
+            "rev": "v0.9.5",
+            "sha256": "sha256-59Rpn7bX3R74owlNSWZs4DXPJ0b1N5O9slqBxs1m0lo=",
             "type": "github"
         },
-        "version": "v0.9.4"
+        "version": "v0.9.5"
     },
     "imhex": {
         "cargoLocks": null,
@@ -95,11 +95,11 @@
             "name": null,
             "owner": "nothub",
             "repo": "mrpack-install",
-            "rev": "v0.16.7",
-            "sha256": "sha256-aGIfCd5k8zCKwi/U2Ry4d+9ff4zmFTfl8W0n0m0IJwQ=",
+            "rev": "v0.16.8",
+            "sha256": "sha256-C5x5X5htvp8kk9rKYXyuuJ6Z/QQL4lMFroi05FI8hoA=",
             "type": "github"
         },
-        "version": "v0.16.7"
+        "version": "v0.16.8"
     },
     "plcli": {
         "cargoLocks": null,
