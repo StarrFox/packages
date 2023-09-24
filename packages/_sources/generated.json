@@ -13,11 +13,11 @@
             "name": null,
             "owner": "commitizen-tools",
             "repo": "commitizen",
-            "rev": "3.8.2",
-            "sha256": "sha256-kaNaIzHax6yBeNE9XS1P2OyXBBUv3qFsrLO5SsTEWc8=",
+            "rev": "3.9.1",
+            "sha256": "sha256-csXVdqWD63iUGqOhDX/BkRjCMB9FqXnAwWYBanEpfXc=",
             "type": "github"
         },
-        "version": "3.8.2"
+        "version": "3.9.1"
     },
     "gh-poi": {
         "cargoLocks": null,
@@ -35,11 +35,11 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.9.5",
-            "sha256": "sha256-59Rpn7bX3R74owlNSWZs4DXPJ0b1N5O9slqBxs1m0lo=",
+            "rev": "v0.9.6",
+            "sha256": "sha256-EfwpG0qtXGnMvONF9A+FaYRO9xUR1egAKW2gcckanJA=",
             "type": "github"
         },
-        "version": "v0.9.5"
+        "version": "v0.9.6"
     },
     "imhex": {
         "cargoLocks": null,
@@ -55,11 +55,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "v1.30.1",
-            "sha256": "sha256-3s9Dgdhl+k2KjMoSHNl59YOoCEwqK+37DOzKdGP88/4=",
+            "rev": "v1.31.0",
+            "sha256": "sha256-lIk8oPEpiPgglPgUjsJuh2hIx/Qg1kf9tTFvH3gX8XA=",
             "type": "github"
         },
-        "version": "v1.30.1"
+        "version": "v1.31.0"
     },
     "imhex-patterns": {
         "cargoLocks": null,
@@ -75,11 +75,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "ImHex-v1.30.1",
-            "sha256": "sha256-W+6CjakG6cgOxCCcMYFff7Z6VWkEf0krmBr7BKucpCE=",
+            "rev": "ImHex-v1.31.0",
+            "sha256": "sha256-HC4Lm5G73flDeCqh69YK8oxY1lDhQPTBdlDfxI/Zl7c=",
             "type": "github"
         },
-        "version": "ImHex-v1.30.1"
+        "version": "ImHex-v1.31.0"
     },
     "mrpack-install": {
         "cargoLocks": null,
@@ -115,11 +115,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "PatternLanguage",
-            "rev": "ImHex-v1.30.1",
-            "sha256": "sha256-dYcdBlYydOAJ4dEODCB+GLkmbbdXjwtBOgQmjmz7irk=",
+            "rev": "ImHex-v1.31.0",
+            "sha256": "sha256-hkvYuu9UYIANu18seT99wEeUhrygujcnTYxMBgJYCZU=",
             "type": "github"
         },
-        "version": "ImHex-v1.30.1"
+        "version": "ImHex-v1.31.0"
     },
     "vscode-zig": {
         "cargoLocks": null,

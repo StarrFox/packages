@@ -7,47 +7,47 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.8.2";
+    version = "3.9.1";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.8.2";
+      rev = "3.9.1";
       fetchSubmodules = false;
-      sha256 = "sha256-kaNaIzHax6yBeNE9XS1P2OyXBBUv3qFsrLO5SsTEWc8=";
+      sha256 = "sha256-csXVdqWD63iUGqOhDX/BkRjCMB9FqXnAwWYBanEpfXc=";
     };
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.9.5";
+    version = "v0.9.6";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.9.5";
+      rev = "v0.9.6";
       fetchSubmodules = false;
-      sha256 = "sha256-59Rpn7bX3R74owlNSWZs4DXPJ0b1N5O9slqBxs1m0lo=";
+      sha256 = "sha256-EfwpG0qtXGnMvONF9A+FaYRO9xUR1egAKW2gcckanJA=";
     };
     vendorSha256 = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
   imhex = {
     pname = "imhex";
-    version = "v1.30.1";
+    version = "v1.31.0";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.30.1";
+      rev = "v1.31.0";
       fetchSubmodules = true;
-      sha256 = "sha256-3s9Dgdhl+k2KjMoSHNl59YOoCEwqK+37DOzKdGP88/4=";
+      sha256 = "sha256-lIk8oPEpiPgglPgUjsJuh2hIx/Qg1kf9tTFvH3gX8XA=";
     };
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.30.1";
+    version = "ImHex-v1.31.0";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.30.1";
+      rev = "ImHex-v1.31.0";
       fetchSubmodules = false;
-      sha256 = "sha256-W+6CjakG6cgOxCCcMYFff7Z6VWkEf0krmBr7BKucpCE=";
+      sha256 = "sha256-HC4Lm5G73flDeCqh69YK8oxY1lDhQPTBdlDfxI/Zl7c=";
     };
   };
   mrpack-install = {
@@ -63,13 +63,13 @@
   };
   plcli = {
     pname = "plcli";
-    version = "ImHex-v1.30.1";
+    version = "ImHex-v1.31.0";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "PatternLanguage";
-      rev = "ImHex-v1.30.1";
+      rev = "ImHex-v1.31.0";
       fetchSubmodules = true;
-      sha256 = "sha256-dYcdBlYydOAJ4dEODCB+GLkmbbdXjwtBOgQmjmz7irk=";
+      sha256 = "sha256-hkvYuu9UYIANu18seT99wEeUhrygujcnTYxMBgJYCZU=";
     };
   };
   vscode-zig = {
