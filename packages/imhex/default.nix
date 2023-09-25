@@ -19,6 +19,7 @@
   rsync,
   source,
   patterns_source,
+  fetchFromGitHub
 }:
 gcc12Stdenv.mkDerivation {
   inherit (source) pname version src;
@@ -26,7 +27,16 @@ gcc12Stdenv.mkDerivation {
   nativeBuildInputs = [cmake llvm python3 perl pkg-config rsync];
 
   buildInputs = [
-    capstone
+    # TODO: check if the version in nixpkgs has upgraded
+    (capstone.overrideAttrs({
+      version = "5.0.1";
+      src = fetchFromGitHub {
+        owner = "capstone-engine";
+        repo = "capstone";
+        rev = "5.0.1";
+        sha256 = "sha256-kKmL5sae9ruWGu1gas1mel9qM52qQOD+zLj8cRE3isg=";
+      };
+    }))
     curl
     dbus
     file
