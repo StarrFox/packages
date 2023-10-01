@@ -19,7 +19,7 @@
   rsync,
   source,
   patterns_source,
-  fetchFromGitHub
+  fetchFromGitHub,
 }:
 gcc12Stdenv.mkDerivation {
   inherit (source) pname version src;
@@ -28,7 +28,7 @@ gcc12Stdenv.mkDerivation {
 
   buildInputs = [
     # TODO: check if the version in nixpkgs has upgraded
-    (capstone.overrideAttrs({
+    (capstone.overrideAttrs {
       version = "5.0.1";
       src = fetchFromGitHub {
         owner = "capstone-engine";
@@ -36,7 +36,7 @@ gcc12Stdenv.mkDerivation {
         rev = "5.0.1";
         sha256 = "sha256-kKmL5sae9ruWGu1gas1mel9qM52qQOD+zLj8cRE3isg=";
       };
-    }))
+    })
     curl
     dbus
     file
