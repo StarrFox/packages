@@ -7,13 +7,13 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.9.1";
+    version = "3.10.0";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.9.1";
+      rev = "3.10.0";
       fetchSubmodules = false;
-      sha256 = "sha256-csXVdqWD63iUGqOhDX/BkRjCMB9FqXnAwWYBanEpfXc=";
+      sha256 = "sha256-faHZBH/JrCDRQqZT9v6hsj4C9/PbLQxIr+6hNFzsEcg=";
     };
   };
   gh-poi = {
