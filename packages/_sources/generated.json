@@ -13,11 +13,11 @@
             "name": null,
             "owner": "commitizen-tools",
             "repo": "commitizen",
-            "rev": "3.10.0",
-            "sha256": "sha256-faHZBH/JrCDRQqZT9v6hsj4C9/PbLQxIr+6hNFzsEcg=",
+            "rev": "3.10.1",
+            "sha256": "sha256-qFec2GtAT+CIZkA2oSR15lbyKb+Ko4hJXCRe+TRoHRY=",
             "type": "github"
         },
-        "version": "3.10.0"
+        "version": "3.10.1"
     },
     "gh-poi": {
         "cargoLocks": null,
@@ -35,11 +35,11 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.9.6",
-            "sha256": "sha256-EfwpG0qtXGnMvONF9A+FaYRO9xUR1egAKW2gcckanJA=",
+            "rev": "v0.9.7",
+            "sha256": "sha256-wSyKTi/OAq/+tS1STmGa3QMrzyyBh/Q01xY0qPtHJdc=",
             "type": "github"
         },
-        "version": "v0.9.6"
+        "version": "v0.9.7"
     },
     "imhex": {
         "cargoLocks": null,
