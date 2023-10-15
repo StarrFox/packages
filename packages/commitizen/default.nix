@@ -26,7 +26,8 @@ buildPythonApplication rec {
     substituteInPlace pyproject.toml \
       --replace 'charset-normalizer = "^2.1.0"' 'charset-normalizer = "*"' \
       --replace 'argcomplete = ">=1.12.1,<2.1"' 'argcomplete = ">=1.12.1"' \
-      --replace 'decli = "^0.6.0"' 'decli = "*"'
+      --replace 'decli = "^0.6.0"' 'decli = "*"' \
+      --replace 'questionary = "^2.0"' 'questionary = "*"'
   '';
 
   propagatedBuildInputs = [
