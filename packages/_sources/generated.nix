@@ -7,24 +7,24 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.10.0";
+    version = "3.10.1";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.10.0";
+      rev = "3.10.1";
       fetchSubmodules = false;
-      sha256 = "sha256-faHZBH/JrCDRQqZT9v6hsj4C9/PbLQxIr+6hNFzsEcg=";
+      sha256 = "sha256-qFec2GtAT+CIZkA2oSR15lbyKb+Ko4hJXCRe+TRoHRY=";
     };
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.9.6";
+    version = "v0.9.7";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.9.6";
+      rev = "v0.9.7";
       fetchSubmodules = false;
-      sha256 = "sha256-EfwpG0qtXGnMvONF9A+FaYRO9xUR1egAKW2gcckanJA=";
+      sha256 = "sha256-wSyKTi/OAq/+tS1STmGa3QMrzyyBh/Q01xY0qPtHJdc=";
     };
     vendorSha256 = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
