@@ -13,11 +13,11 @@
             "name": null,
             "owner": "commitizen-tools",
             "repo": "commitizen",
-            "rev": "3.10.1",
-            "sha256": "sha256-qFec2GtAT+CIZkA2oSR15lbyKb+Ko4hJXCRe+TRoHRY=",
+            "rev": "3.12.0",
+            "sha256": "sha256-Gzx2DdCX8GyxYEi8OH2a21V6JkA50qA+39IInEjLReI=",
             "type": "github"
         },
-        "version": "3.10.1"
+        "version": "3.12.0"
     },
     "gh-poi": {
         "cargoLocks": null,
@@ -35,11 +35,11 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.9.7",
-            "sha256": "sha256-wSyKTi/OAq/+tS1STmGa3QMrzyyBh/Q01xY0qPtHJdc=",
+            "rev": "v0.9.8",
+            "sha256": "sha256-QpUZxho9hzmgbCFgNxwwKi6hhfyqc4b/JYKH3rP4Eb8=",
             "type": "github"
         },
-        "version": "v0.9.7"
+        "version": "v0.9.8"
     },
     "imhex": {
         "cargoLocks": null,
@@ -95,11 +95,11 @@
             "name": null,
             "owner": "nothub",
             "repo": "mrpack-install",
-            "rev": "v0.16.8",
-            "sha256": "sha256-C5x5X5htvp8kk9rKYXyuuJ6Z/QQL4lMFroi05FI8hoA=",
+            "rev": "v0.16.9",
+            "sha256": "sha256-Dhq+dv4lVec2gRVTV+5N6UHg7tZOT4RZkjHt+QwrBXc=",
             "type": "github"
         },
-        "version": "v0.16.8"
+        "version": "v0.16.9"
     },
     "plcli": {
         "cargoLocks": null,
@@ -129,12 +129,12 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscode-zig-0.4.3.zip",
-            "sha256": "sha256-H89/09Ufq7ewh7uRC41NYjhbWnFrdamd7ykRmJfGXDQ=",
+            "name": "vscode-zig-0.5.1.zip",
+            "sha256": "sha256-ygxvkewK5Tf1zNIXxzu6D/tKYNVcNsU9cKij7d5aRdQ=",
             "type": "url",
-            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.4.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "0.4.3"
+        "version": "0.5.1"
     },
     "vscord": {
         "cargoLocks": null,
