@@ -7,24 +7,24 @@
 }: {
   commitizen = {
     pname = "commitizen";
-    version = "3.10.1";
+    version = "3.12.0";
     src = fetchFromGitHub {
       owner = "commitizen-tools";
       repo = "commitizen";
-      rev = "3.10.1";
+      rev = "3.12.0";
       fetchSubmodules = false;
-      sha256 = "sha256-qFec2GtAT+CIZkA2oSR15lbyKb+Ko4hJXCRe+TRoHRY=";
+      sha256 = "sha256-Gzx2DdCX8GyxYEi8OH2a21V6JkA50qA+39IInEjLReI=";
     };
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.9.7";
+    version = "v0.9.8";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.9.7";
+      rev = "v0.9.8";
       fetchSubmodules = false;
-      sha256 = "sha256-wSyKTi/OAq/+tS1STmGa3QMrzyyBh/Q01xY0qPtHJdc=";
+      sha256 = "sha256-QpUZxho9hzmgbCFgNxwwKi6hhfyqc4b/JYKH3rP4Eb8=";
     };
     vendorSha256 = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
@@ -52,13 +52,13 @@
   };
   mrpack-install = {
     pname = "mrpack-install";
-    version = "v0.16.8";
+    version = "v0.16.9";
     src = fetchFromGitHub {
       owner = "nothub";
       repo = "mrpack-install";
-      rev = "v0.16.8";
+      rev = "v0.16.9";
       fetchSubmodules = false;
-      sha256 = "sha256-C5x5X5htvp8kk9rKYXyuuJ6Z/QQL4lMFroi05FI8hoA=";
+      sha256 = "sha256-Dhq+dv4lVec2gRVTV+5N6UHg7tZOT4RZkjHt+QwrBXc=";
     };
   };
   plcli = {
@@ -74,11 +74,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.4.3";
+    version = "0.5.1";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.4.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.4.3.zip";
-      sha256 = "sha256-H89/09Ufq7ewh7uRC41NYjhbWnFrdamd7ykRmJfGXDQ=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.5.1.zip";
+      sha256 = "sha256-ygxvkewK5Tf1zNIXxzu6D/tKYNVcNsU9cKij7d5aRdQ=";
     };
   };
   vscord = {
