@@ -86,7 +86,9 @@
         "date": null,
         "extract": null,
         "name": "mrpack-install",
-        "passthru": null,
+        "passthru": {
+            "vendorHash": "sha256-ZWaWwsAqAcewCyAzDjp9rBBJTl4RsCsA4efBDEcGVss="
+        },
         "pinned": false,
         "src": {
             "deepClone": false,

@@ -60,6 +60,7 @@
       fetchSubmodules = false;
       sha256 = "sha256-Dhq+dv4lVec2gRVTV+5N6UHg7tZOT4RZkjHt+QwrBXc=";
     };
+    vendorHash = "sha256-ZWaWwsAqAcewCyAzDjp9rBBJTl4RsCsA4efBDEcGVss=";
   };
   plcli = {
     pname = "plcli";

@@ -32,3 +32,4 @@ fetch.vsmarketplace = "ziglang.vscode-zig"
 [mrpack-install]
 src.github = "nothub/mrpack-install"
 fetch.github = "nothub/mrpack-install"
+passthru = {vendorHash = "sha256-ZWaWwsAqAcewCyAzDjp9rBBJTl4RsCsA4efBDEcGVss="}
