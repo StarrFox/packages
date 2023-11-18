@@ -12,7 +12,6 @@ in {
   };
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
   commitizen = pkgs.python3Packages.callPackage ./commitizen {source = source.commitizen;};
-  plcli = pkgs.callPackage ./plcli {source = source.plcli;};
   vscord = (pkgs.callPackage ./vscord {source = source.vscord;}).vscord;
   vscode-zig = (pkgs.callPackage ./vscode-zig {source = source.vscode-zig;}).vscode-zig;
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};

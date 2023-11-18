@@ -36,8 +36,6 @@ there is a binary cache at <https://starrfox.cachix.org>
 
 [Gh-Poi](https://github.com/seachicken/gh-poi)
 
-[Plcli](https://github.com/WerWolv/PatternLanguage/tree/master/cli): cli version of imhex's pattern language
-
 [Vscord](https://github.com/LeonardSSH/vscord)
 
 [Mrpack-install](https://github.com/nothub/mrpack-install)
