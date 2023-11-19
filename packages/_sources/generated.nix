@@ -5,6 +5,15 @@
   fetchFromGitHub,
   dockerTools,
 }: {
+  andromeda = {
+    pname = "andromeda";
+    version = "1.8.1";
+    src = fetchurl {
+      url = "https://EliverLara.gallery.vsassets.io/_apis/public/gallery/publisher/EliverLara/extension/andromeda/1.8.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "andromeda-1.8.1.zip";
+      sha256 = "sha256-O0WIewAExQTLlwstAglx1/6ukLntAqXxOEKRzw/5wKA=";
+    };
+  };
   commitizen = {
     pname = "commitizen";
     version = "3.12.0";
@@ -61,17 +70,6 @@
       sha256 = "sha256-Dhq+dv4lVec2gRVTV+5N6UHg7tZOT4RZkjHt+QwrBXc=";
     };
     vendorHash = "sha256-ZWaWwsAqAcewCyAzDjp9rBBJTl4RsCsA4efBDEcGVss=";
-  };
-  plcli = {
-    pname = "plcli";
-    version = "ImHex-v1.31.0";
-    src = fetchFromGitHub {
-      owner = "WerWolv";
-      repo = "PatternLanguage";
-      rev = "ImHex-v1.31.0";
-      fetchSubmodules = true;
-      sha256 = "sha256-hkvYuu9UYIANu18seT99wEeUhrygujcnTYxMBgJYCZU=";
-    };
   };
   vscode-zig = {
     pname = "vscode-zig";

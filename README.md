@@ -38,6 +38,8 @@ there is a binary cache at <https://starrfox.cachix.org>
 
 [Vscord](https://github.com/LeonardSSH/vscord)
 
+[Andromeda](https://github.com/EliverLara/Andromeda)
+
 [Mrpack-install](https://github.com/nothub/mrpack-install)
 
 ## Resources

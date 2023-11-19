@@ -1,4 +1,19 @@
 {
+    "andromeda": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "andromeda",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": "andromeda-1.8.1.zip",
+            "sha256": "sha256-O0WIewAExQTLlwstAglx1/6ukLntAqXxOEKRzw/5wKA=",
+            "type": "url",
+            "url": "https://EliverLara.gallery.vsassets.io/_apis/public/gallery/publisher/EliverLara/extension/andromeda/1.8.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "1.8.1"
+    },
     "commitizen": {
         "cargoLocks": null,
         "date": null,
@@ -102,26 +117,6 @@
             "type": "github"
         },
         "version": "v0.16.9"
-    },
-    "plcli": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "plcli",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "WerWolv",
-            "repo": "PatternLanguage",
-            "rev": "ImHex-v1.31.0",
-            "sha256": "sha256-hkvYuu9UYIANu18seT99wEeUhrygujcnTYxMBgJYCZU=",
-            "type": "github"
-        },
-        "version": "ImHex-v1.31.0"
     },
     "vscode-zig": {
         "cargoLocks": null,

@@ -24,6 +24,10 @@ fetch.vsmarketplace = "LeonardSSH.vscord"
 src.vsmarketplace = "ziglang.vscode-zig"
 fetch.vsmarketplace = "ziglang.vscode-zig"
 
+[andromeda]
+src.vsmarketplace = "EliverLara.andromeda"
+fetch.vsmarketplace = "EliverLara.andromeda"
+
 [mrpack-install]
 src.github = "nothub/mrpack-install"
 fetch.github = "nothub/mrpack-install"

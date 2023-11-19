@@ -14,5 +14,6 @@ in {
   commitizen = pkgs.python3Packages.callPackage ./commitizen {source = source.commitizen;};
   vscord = (pkgs.callPackage ./vscord {source = source.vscord;}).vscord;
   vscode-zig = (pkgs.callPackage ./vscode-zig {source = source.vscode-zig;}).vscode-zig;
+  andromeda = (pkgs.callPackage ./andromeda {source = source.andromeda;}).andromeda;
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
 }
