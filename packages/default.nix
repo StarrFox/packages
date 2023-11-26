@@ -5,7 +5,7 @@
     fetchFromGitHub = pkgs.fetchFromGitHub;
     dockerTools = pkgs.dockerTools;
   };
-in {
+in rec {
   imhex = pkgs.callPackage ./imhex {
     source = source.imhex;
     patterns_source = source.imhex-patterns;
@@ -16,4 +16,16 @@ in {
   vscode-zig = (pkgs.callPackage ./vscode-zig {source = source.vscode-zig;}).vscode-zig;
   andromeda = (pkgs.callPackage ./andromeda {source = source.andromeda;}).andromeda;
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
+
+  python311Optimized = pkgs.python311.override {
+    enableOptimizations = true;
+    reproducibleBuild = false;
+    self = python311Optimized;
+  };
+
+  python312Optimized = pkgs.python312.override {
+    enableOptimizations = true;
+    reproducibleBuild = false;
+    self = python312Optimized;
+  };
 }
