@@ -17,15 +17,15 @@ in rec {
   andromeda = (pkgs.callPackage ./andromeda {source = source.andromeda;}).andromeda;
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
 
-  python311Optimized = pkgs.python311.override {
+  python311 = pkgs.python311.override {
     enableOptimizations = true;
     reproducibleBuild = false;
-    self = python311Optimized;
+    self = python311;
   };
 
-  python312Optimized = pkgs.python312.override {
+  python312 = pkgs.python312.override {
     enableOptimizations = true;
     reproducibleBuild = false;
-    self = python312Optimized;
+    self = python312;
   };
 }
