@@ -17,7 +17,6 @@ in rec {
   andromeda = (pkgs.callPackage ./andromeda {source = source.andromeda;}).andromeda;
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
 
-  # nixpkgs guys are trolling
   python311 = pkgs.python311.override {
     enableOptimizations = true;
     reproducibleBuild = false;
@@ -29,7 +28,4 @@ in rec {
     reproducibleBuild = false;
     self = python312;
   };
-
-  # alias to avoid unfree
-  codon = pkgs.codon;
 }
