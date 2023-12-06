@@ -11,11 +11,12 @@ in rec {
     patterns_source = source.imhex-patterns;
   };
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
-  commitizen = pkgs.python3Packages.callPackage ./commitizen {source = source.commitizen;};
-  vscord = (pkgs.callPackage ./vscord {source = source.vscord;}).vscord;
-  vscode-zig = (pkgs.callPackage ./vscode-zig {source = source.vscode-zig;}).vscode-zig;
-  andromeda = (pkgs.callPackage ./andromeda {source = source.andromeda;}).andromeda;
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
+
+  andromeda = pkgs.callPackage ./andromeda {source = source.andromeda;};
+  vscord = pkgs.callPackage ./vscord {source = source.vscord;};
+  vscode-zig = pkgs.callPackage ./vscode-zig {source = source.vscode-zig;};
+  vscode-coconut = pkgs.callPackage ./vscode-coconut {source = source.vscode-coconut;};
 
   python311 = pkgs.python311.override {
     enableOptimizations = true;

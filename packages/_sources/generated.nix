@@ -14,17 +14,6 @@
       sha256 = "sha256-O0WIewAExQTLlwstAglx1/6ukLntAqXxOEKRzw/5wKA=";
     };
   };
-  commitizen = {
-    pname = "commitizen";
-    version = "3.12.0";
-    src = fetchFromGitHub {
-      owner = "commitizen-tools";
-      repo = "commitizen";
-      rev = "3.12.0";
-      fetchSubmodules = false;
-      sha256 = "sha256-Gzx2DdCX8GyxYEi8OH2a21V6JkA50qA+39IInEjLReI=";
-    };
-  };
   gh-poi = {
     pname = "gh-poi";
     version = "v0.9.8";
@@ -70,6 +59,15 @@
       sha256 = "sha256-Dhq+dv4lVec2gRVTV+5N6UHg7tZOT4RZkjHt+QwrBXc=";
     };
     vendorHash = "sha256-ZWaWwsAqAcewCyAzDjp9rBBJTl4RsCsA4efBDEcGVss=";
+  };
+  vscode-coconut = {
+    pname = "vscode-coconut";
+    version = "2.2.2";
+    src = fetchurl {
+      url = "https://evhub.gallery.vsassets.io/_apis/public/gallery/publisher/evhub/extension/coconut/2.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "coconut-2.2.2.zip";
+      sha256 = "sha256-QMh4kNeDFCMGYsmdwumHEXmcXfbgN2oMfjmH1iRDGR4=";
+    };
   };
   vscode-zig = {
     pname = "vscode-zig";

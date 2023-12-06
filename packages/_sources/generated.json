@@ -14,26 +14,6 @@
         },
         "version": "1.8.1"
     },
-    "commitizen": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "commitizen",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "commitizen-tools",
-            "repo": "commitizen",
-            "rev": "3.12.0",
-            "sha256": "sha256-Gzx2DdCX8GyxYEi8OH2a21V6JkA50qA+39IInEjLReI=",
-            "type": "github"
-        },
-        "version": "3.12.0"
-    },
     "gh-poi": {
         "cargoLocks": null,
         "date": null,
@@ -117,6 +97,21 @@
             "type": "github"
         },
         "version": "v0.16.9"
+    },
+    "vscode-coconut": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "vscode-coconut",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": "coconut-2.2.2.zip",
+            "sha256": "sha256-QMh4kNeDFCMGYsmdwumHEXmcXfbgN2oMfjmH1iRDGR4=",
+            "type": "url",
+            "url": "https://evhub.gallery.vsassets.io/_apis/public/gallery/publisher/evhub/extension/coconut/2.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "2.2.2"
     },
     "vscode-zig": {
         "cargoLocks": null,

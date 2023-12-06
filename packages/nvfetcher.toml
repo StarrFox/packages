@@ -12,10 +12,6 @@ src.github = "seachicken/gh-poi"
 fetch.github = "seachicken/gh-poi"
 passthru = {vendorSha256 = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0="}
 
-[commitizen]
-src.github = "commitizen-tools/commitizen"
-fetch.github = "commitizen-tools/commitizen"
-
 [vscord]
 src.vsmarketplace = "LeonardSSH.vscord"
 fetch.vsmarketplace = "LeonardSSH.vscord"
@@ -32,3 +28,7 @@ fetch.vsmarketplace = "EliverLara.andromeda"
 src.github = "nothub/mrpack-install"
 fetch.github = "nothub/mrpack-install"
 passthru = {vendorHash = "sha256-ZWaWwsAqAcewCyAzDjp9rBBJTl4RsCsA4efBDEcGVss="}
+
+[vscode-coconut]
+src.vsmarketplace = "evhub.coconut"
+fetch.vsmarketplace = "evhub.coconut"

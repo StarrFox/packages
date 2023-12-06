@@ -32,13 +32,13 @@ there is a binary cache at <https://starrfox.cachix.org>
 
 [ImHex](https://github.com/WerWolv/ImHex)
 
-[Commitizen](https://github.com/commitizen-tools/commitizen)
-
 [Gh-Poi](https://github.com/seachicken/gh-poi)
 
 [Vscord](https://github.com/LeonardSSH/vscord)
 
 [Andromeda](https://github.com/EliverLara/Andromeda)
+
+[Vscode-coconut](https://github.com/evhub/sublime-coconut)
 
 [Mrpack-install](https://github.com/nothub/mrpack-install)
 
