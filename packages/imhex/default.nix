@@ -20,9 +20,12 @@
   source,
   patterns_source,
   fetchFromGitHub,
+  lib
 }:
 gcc12Stdenv.mkDerivation {
-  inherit (source) pname version src;
+  inherit (source) pname src;
+
+  version = lib.strings.removePrefix "v" source.version;
 
   nativeBuildInputs = [cmake llvm python3 perl pkg-config rsync];
 

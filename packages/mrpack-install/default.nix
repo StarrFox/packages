@@ -1,9 +1,11 @@
 {
   buildGoModule,
   source,
+  lib
 }:
 buildGoModule {
-  inherit (source) pname version src vendorHash;
+  inherit (source) pname src vendorHash;
+  version = lib.strings.removePrefix "v" source.version;
   ldflags = ["-s" "-w"];
   doCheck = false;
 }
