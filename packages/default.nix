@@ -29,4 +29,14 @@ in rec {
     reproducibleBuild = false;
     self = python312;
   };
+
+  # TODO: remove
+  olafNim = pkgs.nim2.overrideAttrs {
+    src = pkgs.fetchFromGitHub {
+      owner = "nim-lang";
+      repo = "Nim";
+      rev = "devel";
+      hash = "sha256-qaSq/xJJ4/j8YSXD6EQncUeE+c1uoHlS8iFWmQ2ZBoU=";
+    };
+  };
 }
