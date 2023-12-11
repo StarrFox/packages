@@ -4,7 +4,7 @@
   lib,
 }:
 buildGoModule {
-  inherit (source) pname src vendorSha256;
+  inherit (source) pname src vendorHash;
   version = lib.strings.removePrefix "v" source.version;
   doCheck = false;
 }

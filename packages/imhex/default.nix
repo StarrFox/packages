@@ -20,7 +20,7 @@
   source,
   patterns_source,
   fetchFromGitHub,
-  lib
+  lib,
 }:
 gcc12Stdenv.mkDerivation {
   inherit (source) pname src;

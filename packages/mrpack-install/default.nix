@@ -1,7 +1,7 @@
 {
   buildGoModule,
   source,
-  lib
+  lib,
 }:
 buildGoModule {
   inherit (source) pname src vendorHash;
