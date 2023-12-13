@@ -56,6 +56,26 @@
         },
         "version": "v1.31.0"
     },
+    "imhex-git": {
+        "cargoLocks": null,
+        "date": "2023-12-12",
+        "extract": null,
+        "name": "imhex-git",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "WerWolv",
+            "repo": "imhex",
+            "rev": "1a8a9e53e140972120b800ee6500306e709cbe2e",
+            "sha256": "sha256-6/OnH0xdJ7UFFcf9BDcqiTyWru6/MUQKgtTFUi+b5RU=",
+            "type": "github"
+        },
+        "version": "1a8a9e53e140972120b800ee6500306e709cbe2e"
+    },
     "imhex-patterns": {
         "cargoLocks": null,
         "date": null,
@@ -75,6 +95,26 @@
             "type": "github"
         },
         "version": "ImHex-v1.31.0"
+    },
+    "imhex-patterns-git": {
+        "cargoLocks": null,
+        "date": "2023-12-07",
+        "extract": null,
+        "name": "imhex-patterns-git",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "WerWolv",
+            "repo": "ImHex-Patterns",
+            "rev": "a7e6209791c25eff9ba2374de005dbeb3fe7379c",
+            "sha256": "sha256-WnY7nunW67+9xzIbo5Jpi6n0feno7spkyZrTalbsAxA=",
+            "type": "github"
+        },
+        "version": "a7e6209791c25eff9ba2374de005dbeb3fe7379c"
     },
     "mrpack-install": {
         "cargoLocks": null,
