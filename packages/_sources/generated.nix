@@ -37,6 +37,18 @@
       sha256 = "sha256-lIk8oPEpiPgglPgUjsJuh2hIx/Qg1kf9tTFvH3gX8XA=";
     };
   };
+  imhex-git = {
+    pname = "imhex-git";
+    version = "1a8a9e53e140972120b800ee6500306e709cbe2e";
+    src = fetchFromGitHub {
+      owner = "WerWolv";
+      repo = "imhex";
+      rev = "1a8a9e53e140972120b800ee6500306e709cbe2e";
+      fetchSubmodules = true;
+      sha256 = "sha256-6/OnH0xdJ7UFFcf9BDcqiTyWru6/MUQKgtTFUi+b5RU=";
+    };
+    date = "2023-12-12";
+  };
   imhex-patterns = {
     pname = "imhex-patterns";
     version = "ImHex-v1.31.0";
@@ -47,6 +59,18 @@
       fetchSubmodules = false;
       sha256 = "sha256-HC4Lm5G73flDeCqh69YK8oxY1lDhQPTBdlDfxI/Zl7c=";
     };
+  };
+  imhex-patterns-git = {
+    pname = "imhex-patterns-git";
+    version = "a7e6209791c25eff9ba2374de005dbeb3fe7379c";
+    src = fetchFromGitHub {
+      owner = "WerWolv";
+      repo = "ImHex-Patterns";
+      rev = "a7e6209791c25eff9ba2374de005dbeb3fe7379c";
+      fetchSubmodules = false;
+      sha256 = "sha256-WnY7nunW67+9xzIbo5Jpi6n0feno7spkyZrTalbsAxA=";
+    };
+    date = "2023-12-07";
   };
   mrpack-install = {
     pname = "mrpack-install";

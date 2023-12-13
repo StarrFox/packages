@@ -10,6 +10,11 @@ in rec {
     source = source.imhex;
     patterns_source = source.imhex-patterns;
   };
+  imhex-git = pkgs.callPackage ./imhex {
+    source = source.imhex-git;
+    patterns_source = source.imhex-patterns-git;
+    patches = [./imhex/llvm16_fix.patch];
+  };
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
 

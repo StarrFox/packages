@@ -21,6 +21,7 @@
   patterns_source,
   fetchFromGitHub,
   lib,
+  patches ? [],
 }:
 gcc12Stdenv.mkDerivation {
   inherit (source) pname src;
@@ -28,6 +29,8 @@ gcc12Stdenv.mkDerivation {
   version = lib.strings.removePrefix "v" source.version;
 
   nativeBuildInputs = [cmake llvm python3 perl pkg-config rsync];
+
+  patches = patches;
 
   buildInputs = [
     # TODO: check if the version in nixpkgs has upgraded
