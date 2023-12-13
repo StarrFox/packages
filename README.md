@@ -10,7 +10,7 @@ to update the packages in this repo do
 nix develop --command just update
 ```
 
-to use them just to
+to use them just do
 
 ```shell
 nix run github:StarrFox/packages#<package name>
