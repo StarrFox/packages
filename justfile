@@ -10,6 +10,10 @@ check:
 update-packages: && format
     nvfetcher --config packages/nvfetcher.toml --build-dir packages/_sources/
 
+# updates packages ending in -git
+update-git-packages: && format
+    nvfetcher --config packages/nvfetcher.toml --build-dir packages/_sources/ --filter ".+-git"
+
 # update inputs, packages and check
 update: && update-packages check
     nix flake update
