@@ -72,4 +72,6 @@ gcc12Stdenv.mkDerivation {
     mkdir -p $out/share/imhex
     rsync -av --exclude="*_schema.json" ${patterns_source.src}/{constants,encodings,includes,magic,patterns} $out/share/imhex
   '';
+
+  meta.mainProgram = "imhex";
 }
