@@ -43,3 +43,7 @@ passthru = {vendorHash = "sha256-ZWaWwsAqAcewCyAzDjp9rBBJTl4RsCsA4efBDEcGVss="}
 [vscode-coconut]
 src.vsmarketplace = "evhub.coconut"
 fetch.vsmarketplace = "evhub.coconut"
+
+[monokai-highcontrast]
+src.vsmarketplace = "DataByne.theme-monokai-hc"
+fetch.vsmarketplace = "DataByne.theme-monokai-hc"

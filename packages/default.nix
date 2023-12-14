@@ -22,6 +22,7 @@ in rec {
   vscord = pkgs.callPackage ./vscord {source = source.vscord;};
   vscode-zig = pkgs.callPackage ./vscode-zig {source = source.vscode-zig;};
   vscode-coconut = pkgs.callPackage ./vscode-coconut {source = source.vscode-coconut;};
+  monokai-highcontrast = pkgs.callPackage ./monokai-highcontrast {source = source.monokai-highcontrast;};
 
   python311 = pkgs.python311.override {
     enableOptimizations = true;

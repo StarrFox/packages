@@ -72,6 +72,15 @@
     };
     date = "2023-12-07";
   };
+  monokai-highcontrast = {
+    pname = "monokai-highcontrast";
+    version = "1.1.1";
+    src = fetchurl {
+      url = "https://DataByne.gallery.vsassets.io/_apis/public/gallery/publisher/DataByne/extension/theme-monokai-hc/1.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "theme-monokai-hc-1.1.1.zip";
+      sha256 = "sha256-ZB6QS4Xj/dHrV5RBDBKC82D7YKo+EMTS1tiyIr/lvKg=";
+    };
+  };
   mrpack-install = {
     pname = "mrpack-install";
     version = "v0.16.9";
