@@ -24,11 +24,14 @@ jobs:
             - run: nix flake update
             - run: nix develop --command just update-git-packages
             - name: Create PR
+              id: createpr
               uses: peter-evans/create-pull-request@v5
               with:
                 title: "update packages and lock"
                 branch: update
                 branch-suffix: timestamp
                 delete-branch: true
-                reviewers: StarrFox
                 commit-message: "update packages and lock"
+            - name: enable auto-merge
+              if: steps.createpr.outputs.pull-request-operation == 'created'
+              run: gh pr merge --merge --auto step.createpr.outputs.pull-request-number
