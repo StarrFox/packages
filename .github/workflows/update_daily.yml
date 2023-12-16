@@ -34,6 +34,6 @@ jobs:
                 commit-message: "update packages and lock"
             - name: enable auto-merge
               if: steps.createpr.outputs.pull-request-operation == 'created'
-              run: gh pr merge --merge --auto step.createpr.outputs.pull-request-number
+              run: gh pr merge --merge --auto ${{ steps.createpr.outputs.pull-request-number }}
               env:
                 GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
