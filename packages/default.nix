@@ -1,9 +1,6 @@
 {pkgs, ...}: let
   source = import ./_sources/generated.nix {
-    fetchurl = pkgs.fetchurl;
-    fetchgit = pkgs.fetchgit;
-    fetchFromGitHub = pkgs.fetchFromGitHub;
-    dockerTools = pkgs.dockerTools;
+    inherit (pkgs) fetchurl fetchgit fetchFromGitHub dockerTools;
   };
 in rec {
   imhex = pkgs.callPackage ./imhex {
