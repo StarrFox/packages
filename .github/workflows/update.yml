@@ -32,3 +32,6 @@ jobs:
                 delete-branch: true
                 reviewers: StarrFox
                 commit-message: "update packages and lock"
+                labels: |
+                  automated
+                  packages/update

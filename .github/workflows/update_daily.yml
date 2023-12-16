@@ -33,6 +33,9 @@ jobs:
                 delete-branch: true
                 commit-message: "update daily packages and lock"
                 token: ${{ secrets.CUCK_GITHUB }}
+                labels: |
+                  automated
+                  packages/update
             - name: enable auto-merge
               if: steps.createpr.outputs.pull-request-operation == 'created'
               run: gh pr merge --merge --auto ${{ steps.createpr.outputs.pull-request-number }}
