@@ -27,13 +27,14 @@ jobs:
               id: createpr
               uses: peter-evans/create-pull-request@v5
               with:
-                title: "update packages and lock"
+                title: "update daily packages and lock"
                 branch: update
                 branch-suffix: timestamp
                 delete-branch: true
-                commit-message: "update packages and lock"
+                commit-message: "update daily packages and lock"
+                token: ${{ secrets.CUCK_GITHUB }}
             - name: enable auto-merge
               if: steps.createpr.outputs.pull-request-operation == 'created'
               run: gh pr merge --merge --auto ${{ steps.createpr.outputs.pull-request-number }}
               env:
-                GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                GH_TOKEN: ${{ secrets.CUCK_GITHUB }}
