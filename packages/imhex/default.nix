@@ -1,5 +1,6 @@
 {
   gcc12Stdenv,
+  build_env ? gcc12Stdenv,
   cmake,
   llvm,
   mbedtls,
@@ -22,7 +23,7 @@
   fetchFromGitHub,
   lib,
 }:
-gcc12Stdenv.mkDerivation {
+build_env.mkDerivation {
   inherit (source) pname src;
 
   version = lib.strings.removePrefix "v" source.version;
