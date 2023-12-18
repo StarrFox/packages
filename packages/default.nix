@@ -12,6 +12,9 @@ in rec {
     patterns_source = source.imhex-patterns-git;
     # git version requires llvm_17
     llvm = pkgs.llvm_17;
+    # git version requires gcc13
+    # not sure if I should just use 13 for both
+    build_env = pkgs.gcc13Stdenv;
   };
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
