@@ -21,17 +21,16 @@ jobs:
               with:
                 name: starrfox
                 authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
-            - run: nix flake update
             - run: nix develop --command just update-git-packages
             - name: Create PR
               id: createpr
               uses: peter-evans/create-pull-request@v5
               with:
-                title: "update daily packages and lock"
+                title: "update daily packages"
                 branch: update
                 branch-suffix: timestamp
                 delete-branch: true
-                commit-message: "update daily packages and lock"
+                commit-message: "update daily packages"
                 token: ${{ secrets.CUCK_GITHUB }}
                 labels: |
                   automated
