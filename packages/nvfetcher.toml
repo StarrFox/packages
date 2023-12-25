@@ -47,3 +47,7 @@ fetch.vsmarketplace = "evhub.coconut"
 [monokai-highcontrast]
 src.vsmarketplace = "DataByne.theme-monokai-hc"
 fetch.vsmarketplace = "DataByne.theme-monokai-hc"
+
+[vscode-lark]
+src.vsmarketplace = "dirk-thomas.vscode-lark"
+fetch.vsmarketplace = "dirk-thomas.vscode-lark"

@@ -168,6 +168,21 @@
         },
         "version": "2.2.2"
     },
+    "vscode-lark": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "vscode-lark",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": "vscode-lark-0.1.0.zip",
+            "sha256": "sha256-uIXQsi+p3N+Yqzf5quYciv3t4PiK9EN1nwFiH+WHHz8=",
+            "type": "url",
+            "url": "https://dirk-thomas.gallery.vsassets.io/_apis/public/gallery/publisher/dirk-thomas/extension/vscode-lark/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.1.0"
+    },
     "vscode-zig": {
         "cargoLocks": null,
         "date": null,
