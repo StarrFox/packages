@@ -7,7 +7,7 @@ in rec {
     source = source.imhex;
     patterns_source = source.imhex-patterns;
   };
-  imhex-git = imhex.override {
+  imhex-git = (imhex.override {
     source = source.imhex-git;
     patterns_source = source.imhex-patterns-git;
     # git version requires llvm_17
@@ -15,7 +15,10 @@ in rec {
     # git version requires gcc13
     # not sure if I should just use 13 for both
     build_env = pkgs.gcc13Stdenv;
-  };
+  }).overrideAttrs (previousAttrs: {
+    buildInputs = previousAttrs.buildInputs ++ [pkgs.libarchive];
+  });
+
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
 
