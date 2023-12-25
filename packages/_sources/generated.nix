@@ -39,15 +39,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "84bfd10416a9e45e1875b62196ae45123dab3bbc";
+    version = "65e2f1b5afc17ad95bdbfa7ea293f1b1f6da2414";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "84bfd10416a9e45e1875b62196ae45123dab3bbc";
+      rev = "65e2f1b5afc17ad95bdbfa7ea293f1b1f6da2414";
       fetchSubmodules = true;
-      sha256 = "sha256-ONMvdtyl6m+iqsIklA0VSEKIWfHR1ztT1iIF8OlfXMc=";
+      sha256 = "sha256-Vaiqxb9SnuWDiTHo9BaFVzi1dMTTkaVJz3jj+IXl/cg=";
     };
-    date = "2023-12-22";
+    date = "2023-12-24";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
@@ -100,6 +100,15 @@
       url = "https://evhub.gallery.vsassets.io/_apis/public/gallery/publisher/evhub/extension/coconut/2.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "coconut-2.2.2.zip";
       sha256 = "sha256-QMh4kNeDFCMGYsmdwumHEXmcXfbgN2oMfjmH1iRDGR4=";
+    };
+  };
+  vscode-lark = {
+    pname = "vscode-lark";
+    version = "0.1.0";
+    src = fetchurl {
+      url = "https://dirk-thomas.gallery.vsassets.io/_apis/public/gallery/publisher/dirk-thomas/extension/vscode-lark/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-lark-0.1.0.zip";
+      sha256 = "sha256-uIXQsi+p3N+Yqzf5quYciv3t4PiK9EN1nwFiH+WHHz8=";
     };
   };
   vscode-zig = {

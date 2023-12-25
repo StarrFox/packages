@@ -24,6 +24,7 @@ in rec {
   vscode-zig = pkgs.callPackage ./vscode-zig {source = source.vscode-zig;};
   vscode-coconut = pkgs.callPackage ./vscode-coconut {source = source.vscode-coconut;};
   monokai-highcontrast = pkgs.callPackage ./monokai-highcontrast {source = source.monokai-highcontrast;};
+  vscode-lark = pkgs.callPackage ./vscode-lark {source = source.vscode-lark;};
   yafc = pkgs.callPackage ./yafc {};
 
   python311 = pkgs.python311.override {
