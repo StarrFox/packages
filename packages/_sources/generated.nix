@@ -102,6 +102,15 @@
       sha256 = "sha256-QMh4kNeDFCMGYsmdwumHEXmcXfbgN2oMfjmH1iRDGR4=";
     };
   };
+  vscode-lark = {
+    pname = "vscode-lark";
+    version = "0.1.0";
+    src = fetchurl {
+      url = "https://dirk-thomas.gallery.vsassets.io/_apis/public/gallery/publisher/dirk-thomas/extension/vscode-lark/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-lark-0.1.0.zip";
+      sha256 = "sha256-uIXQsi+p3N+Yqzf5quYciv3t4PiK9EN1nwFiH+WHHz8=";
+    };
+  };
   vscode-zig = {
     pname = "vscode-zig";
     version = "0.5.1";
