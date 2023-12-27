@@ -24,12 +24,14 @@ in rec {
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
   mrpack-install = pkgs.callPackage ./mrpack-install {source = source.mrpack-install;};
 
+  # TODO: try putting these in a subattr set; i.e. vscode-extensions.chdsbd.github-code-owners
   andromeda = pkgs.callPackage ./andromeda {source = source.andromeda;};
   vscord = pkgs.callPackage ./vscord {source = source.vscord;};
   vscode-zig = pkgs.callPackage ./vscode-zig {source = source.vscode-zig;};
   vscode-coconut = pkgs.callPackage ./vscode-coconut {source = source.vscode-coconut;};
   monokai-highcontrast = pkgs.callPackage ./monokai-highcontrast {source = source.monokai-highcontrast;};
   vscode-lark = pkgs.callPackage ./vscode-lark {source = source.vscode-lark;};
+  github-code-owners = pkgs.callPackage ./github-code-owners {source = source.github-code-owners;};
 
   python311 = pkgs.python311.override {
     enableOptimizations = true;

@@ -51,3 +51,7 @@ fetch.vsmarketplace = "DataByne.theme-monokai-hc"
 [vscode-lark]
 src.vsmarketplace = "dirk-thomas.vscode-lark"
 fetch.vsmarketplace = "dirk-thomas.vscode-lark"
+
+[github-code-owners]
+src.vsmarketplace = "chdsbd.github-code-owners"
+fetch.vsmarketplace = "chdsbd.github-code-owners"

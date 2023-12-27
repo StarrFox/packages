@@ -36,6 +36,21 @@
         },
         "version": "v0.9.8"
     },
+    "github-code-owners": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "github-code-owners",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": "github-code-owners-3.3.0.zip",
+            "sha256": "sha256-cMybIQnLHV+yacjKRJUiulI9kqZbVkjkbt/ycwZI5CA=",
+            "type": "url",
+            "url": "https://chdsbd.gallery.vsassets.io/_apis/public/gallery/publisher/chdsbd/extension/github-code-owners/3.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "3.3.0"
+    },
     "imhex": {
         "cargoLocks": null,
         "date": null,

@@ -26,6 +26,15 @@
     };
     vendorHash = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
+  github-code-owners = {
+    pname = "github-code-owners";
+    version = "3.3.0";
+    src = fetchurl {
+      url = "https://chdsbd.gallery.vsassets.io/_apis/public/gallery/publisher/chdsbd/extension/github-code-owners/3.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "github-code-owners-3.3.0.zip";
+      sha256 = "sha256-cMybIQnLHV+yacjKRJUiulI9kqZbVkjkbt/ycwZI5CA=";
+    };
+  };
   imhex = {
     pname = "imhex";
     version = "v1.31.0";
