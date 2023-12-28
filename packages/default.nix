@@ -8,8 +8,8 @@ in rec {
     patterns_source = source.imhex-patterns;
   };
   imhex-git = imhex.override {
-      source = source.imhex-git;
-      patterns_source = source.imhex-patterns-git;
+    source = source.imhex-git;
+    patterns_source = source.imhex-patterns-git;
   };
 
   gh-poi = pkgs.callPackage ./gh-poi {source = source.gh-poi;};
