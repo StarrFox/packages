@@ -65,15 +65,15 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "v1.31.0",
-            "sha256": "sha256-lIk8oPEpiPgglPgUjsJuh2hIx/Qg1kf9tTFvH3gX8XA=",
+            "rev": "v1.32.0",
+            "sha256": "sha256-PwKQ5MLM5U9zxRqenGuojIeZLp/3BpjctCq46zU8sU0=",
             "type": "github"
         },
-        "version": "v1.31.0"
+        "version": "v1.32.0"
     },
     "imhex-git": {
         "cargoLocks": null,
-        "date": "2023-12-27",
+        "date": "2023-12-28",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -85,11 +85,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "d7ba2e7171587aa30cdf0a5af7adc4c9c165c169",
-            "sha256": "sha256-jBc3LarDtnVvQv+jgIPtaDkyLnUNKYWUZlUCoa9dsLQ=",
+            "rev": "63042dbba8829f3009f2d3a787553cb37cdbabd6",
+            "sha256": "sha256-PwKQ5MLM5U9zxRqenGuojIeZLp/3BpjctCq46zU8sU0=",
             "type": "github"
         },
-        "version": "d7ba2e7171587aa30cdf0a5af7adc4c9c165c169"
+        "version": "63042dbba8829f3009f2d3a787553cb37cdbabd6"
     },
     "imhex-patterns": {
         "cargoLocks": null,
@@ -105,11 +105,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "ImHex-v1.31.0",
-            "sha256": "sha256-HC4Lm5G73flDeCqh69YK8oxY1lDhQPTBdlDfxI/Zl7c=",
+            "rev": "ImHex-v1.32.0",
+            "sha256": "sha256-WnY7nunW67+9xzIbo5Jpi6n0feno7spkyZrTalbsAxA=",
             "type": "github"
         },
-        "version": "ImHex-v1.31.0"
+        "version": "ImHex-v1.32.0"
     },
     "imhex-patterns-git": {
         "cargoLocks": null,

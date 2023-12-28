@@ -2,7 +2,7 @@
   gcc12Stdenv,
   build_env ? gcc12Stdenv,
   cmake,
-  llvm,
+  llvm_17,
   mbedtls,
   gtk3,
   pkg-config,
@@ -21,6 +21,7 @@
   source,
   patterns_source,
   fetchFromGitHub,
+  libarchive,
   lib,
 }:
 build_env.mkDerivation {
@@ -28,7 +29,7 @@ build_env.mkDerivation {
 
   version = lib.strings.removePrefix "v" source.version;
 
-  nativeBuildInputs = [cmake llvm python3 perl pkg-config rsync];
+  nativeBuildInputs = [cmake llvm_17 python3 perl pkg-config rsync];
 
   buildInputs = [
     # TODO: check if the version in nixpkgs has upgraded
@@ -51,6 +52,7 @@ build_env.mkDerivation {
     mbedtls
     nlohmann_json
     yara
+    libarchive
   ];
 
   cmakeFlags = [
