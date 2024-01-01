@@ -37,36 +37,36 @@
   };
   imhex = {
     pname = "imhex";
-    version = "v1.32.0";
+    version = "v1.32.1";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.32.0";
+      rev = "v1.32.1";
       fetchSubmodules = true;
-      sha256 = "sha256-PwKQ5MLM5U9zxRqenGuojIeZLp/3BpjctCq46zU8sU0=";
+      sha256 = "sha256-EQMXS5hHuy9W1m/E10medyvIMF1ETE3wS6HXJ9kUXmA=";
     };
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "b76e7ff6789ab6a36deb050a66042ba8d91fc009";
+    version = "4a5f1038e08700d74fce1f974abf444050921bbf";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "b76e7ff6789ab6a36deb050a66042ba8d91fc009";
+      rev = "4a5f1038e08700d74fce1f974abf444050921bbf";
       fetchSubmodules = true;
-      sha256 = "sha256-hzgJdmtadUl4HdNmwl0qNui8t1z5oK+sJgnuiTN7Q2M=";
+      sha256 = "sha256-ETXhILGLs34+DLe91nCU5kBLQyp5X9ycpvWxQa+oH0o=";
     };
-    date = "2023-12-30";
+    date = "2023-12-31";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.32.0";
+    version = "ImHex-v1.32.1";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.32.0";
+      rev = "ImHex-v1.32.1";
       fetchSubmodules = false;
-      sha256 = "sha256-WnY7nunW67+9xzIbo5Jpi6n0feno7spkyZrTalbsAxA=";
+      sha256 = "sha256-K+LiQvykCrOwhEVy37lh7VSf5YJyBQtLz8AGFsuRznQ=";
     };
   };
   imhex-patterns-git = {
