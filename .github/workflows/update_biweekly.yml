@@ -24,14 +24,20 @@ jobs:
             - run: nix flake update
             - run: nix develop --command just update-packages
             - name: Create PR
+              id: createpr
               uses: peter-evans/create-pull-request@v5
               with:
                 title: "update packages and lock"
                 branch: update
                 branch-suffix: timestamp
                 delete-branch: true
-                reviewers: StarrFox
-                commit-message: "update packages and lock"
+                commit-message: "update biweekly packages and lock"
+                token: ${{ secrets.CUCK_GITHUB }}
                 labels: |
                   automated
                   packages/update
+            - name: enable auto-merge
+              if: steps.createpr.outputs.pull-request-operation == 'created'
+              run: gh pr merge --merge --auto --squash ${{ steps.createpr.outputs.pull-request-number }}
+              env:
+                GH_TOKEN: ${{ secrets.CUCK_GITHUB }}
