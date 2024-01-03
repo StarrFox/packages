@@ -1,4 +1,4 @@
-name: "cachix"
+name: "ci"
 on:
   workflow_dispatch:
   pull_request:
@@ -6,7 +6,17 @@ on:
     branches: [main]
 
 jobs:
+  check_flake:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install Nix
+      uses: DeterminateSystems/nix-installer-action@main
+    - name: check flake
+      run: nix flake check
+
   generate_matrix:
+    needs: ["check_flake"]
     runs-on: ubuntu-latest
     outputs:
       packages: ${{ steps.generate_packages.outputs.packages }}
