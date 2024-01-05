@@ -85,11 +85,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "eca41cac1681dc93eb2aeadb3a88d096773b6665",
-            "sha256": "sha256-8jxWYmkwZGdGc0JCZ7DzWFZJQbszQknk1C9M6Mm9xkg=",
+            "rev": "0627b36bf6320a97775d53e662baf6fd6830b872",
+            "sha256": "sha256-XIruZRcX3fVgyRsqFJQ41NBtLWp79NEXgPPvYekyiPw=",
             "type": "github"
         },
-        "version": "eca41cac1681dc93eb2aeadb3a88d096773b6665"
+        "version": "0627b36bf6320a97775d53e662baf6fd6830b872"
     },
     "imhex-patterns": {
         "cargoLocks": null,
