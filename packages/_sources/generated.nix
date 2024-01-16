@@ -48,15 +48,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "d511080814dc78ad39a63f2071003c07ee37673c";
+    version = "ffb324f685e4af43db8ec874803ac54b56b3bcc9";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "d511080814dc78ad39a63f2071003c07ee37673c";
+      rev = "ffb324f685e4af43db8ec874803ac54b56b3bcc9";
       fetchSubmodules = true;
-      sha256 = "sha256-c5mg4QDVO0oRAMMYuX+QAtdZek+xgpwzBezFs0PPmC0=";
+      sha256 = "sha256-+5U+euN1jirSaszi+TIfOFSmK6qx/cIR277gSTnyWvc=";
     };
-    date = "2024-01-13";
+    date = "2024-01-16";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
