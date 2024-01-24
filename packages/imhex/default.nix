@@ -15,7 +15,7 @@
   python3,
   curl,
   fmt_8,
-  nlohmann_json,
+  #nlohmann_json,
   yara,
   rsync,
   source,
@@ -50,7 +50,7 @@ build_env.mkDerivation {
     gtk3
     libGLU
     mbedtls
-    nlohmann_json
+    #nlohmann_json
     yara
     libarchive
   ];
@@ -62,7 +62,7 @@ build_env.mkDerivation {
     "-DUSE_SYSTEM_CURL=ON"
     "-DUSE_SYSTEM_FMT=ON"
     "-DUSE_SYSTEM_LLVM=ON"
-    "-DUSE_SYSTEM_NLOHMANN_JSON=ON"
+    #"-DUSE_SYSTEM_NLOHMANN_JSON=ON"
     "-DUSE_SYSTEM_YARA=ON"
   ];
 
