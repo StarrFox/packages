@@ -162,11 +162,11 @@
             "name": null,
             "owner": "nothub",
             "repo": "mrpack-install",
-            "rev": "v0.16.9",
-            "sha256": "sha256-Dhq+dv4lVec2gRVTV+5N6UHg7tZOT4RZkjHt+QwrBXc=",
+            "rev": "v0.16.10",
+            "sha256": "sha256-mTAXFK97t10imdICpg0UI4YLF744oscJqoOIBG5GEkc=",
             "type": "github"
         },
-        "version": "v0.16.9"
+        "version": "v0.16.10"
     },
     "vscode-coconut": {
         "cargoLocks": null,
@@ -206,12 +206,12 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscode-zig-0.5.1.zip",
-            "sha256": "sha256-ygxvkewK5Tf1zNIXxzu6D/tKYNVcNsU9cKij7d5aRdQ=",
+            "name": "vscode-zig-0.5.3.zip",
+            "sha256": "sha256-F6MDfVwmOpq4hgmIh0k9UW/ziAeT9aenri5E5z2mGw0=",
             "type": "url",
-            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "0.5.1"
+        "version": "0.5.3"
     },
     "vscord": {
         "cargoLocks": null,
