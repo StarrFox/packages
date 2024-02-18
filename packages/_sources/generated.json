@@ -152,7 +152,7 @@
         "extract": null,
         "name": "mrpack-install",
         "passthru": {
-            "vendorHash": "sha256-ZWaWwsAqAcewCyAzDjp9rBBJTl4RsCsA4efBDEcGVss="
+            "vendorHash": "sha256-az+NpP/hCIq2IfO8Bmn/qG3JVypeDljJ0jWg6yT6hks="
         },
         "pinned": false,
         "src": {
