@@ -73,7 +73,7 @@
     },
     "imhex-git": {
         "cargoLocks": null,
-        "date": "2024-02-25",
+        "date": "2024-02-26",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -85,11 +85,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "66e0f54d0e3356453f3e45b73c9639f3398f0dcb",
-            "sha256": "sha256-CFbpysU+kQeGvdaL57DfyKYXM4f5fjJQRBsnOfi98os=",
+            "rev": "2572e2392899a4b3f1554012833f256d79a8843f",
+            "sha256": "sha256-niVSYICg7+srsNmp5z7RxBrxvvkHdfbK0HdvWngfRkY=",
             "type": "github"
         },
-        "version": "66e0f54d0e3356453f3e45b73c9639f3398f0dcb"
+        "version": "2572e2392899a4b3f1554012833f256d79a8843f"
     },
     "imhex-patterns": {
         "cargoLocks": null,
