@@ -37,36 +37,36 @@
   };
   imhex = {
     pname = "imhex";
-    version = "v1.32.2";
+    version = "v1.33.0";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.32.2";
+      rev = "v1.33.0";
       fetchSubmodules = true;
-      sha256 = "sha256-MYOZHQMYbbP01z0FyoCgTzwY1/71eUCmJYYfYvN9+so=";
+      sha256 = "sha256-CFbpysU+kQeGvdaL57DfyKYXM4f5fjJQRBsnOfi98os=";
     };
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "f886eac7b592183b9b572e99cc5e9bf490277abf";
+    version = "735d89626031a1a6a4dff71c602941a3c3eb3ede";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "f886eac7b592183b9b572e99cc5e9bf490277abf";
+      rev = "735d89626031a1a6a4dff71c602941a3c3eb3ede";
       fetchSubmodules = true;
-      sha256 = "sha256-6jvEtMgG2AIHeptYEtQSwp7MQZdtIsX1WIGO9UdHYPw=";
+      sha256 = "sha256-EmcVwTIWqNKhkZpGbv4aDtY1//u/liY9bM5wYowAdMk=";
     };
-    date = "2024-02-28";
+    date = "2024-02-29";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.32.2";
+    version = "ImHex-v1.33.0";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.32.2";
+      rev = "ImHex-v1.33.0";
       fetchSubmodules = false;
-      sha256 = "sha256-K+LiQvykCrOwhEVy37lh7VSf5YJyBQtLz8AGFsuRznQ=";
+      sha256 = "sha256-BJFxRnfoSt2uSY7XQboRoehLfSvN2O36h5+kRYNT1Gw=";
     };
   };
   imhex-patterns-git = {
@@ -122,11 +122,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.5.3";
+    version = "0.5.4";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.5.3.zip";
-      sha256 = "sha256-F6MDfVwmOpq4hgmIh0k9UW/ziAeT9aenri5E5z2mGw0=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.5.4.zip";
+      sha256 = "sha256-kczkVm847COmpNtUJI5lsZIuM7qAU6UgE8SCj8ZhIaA=";
     };
   };
   vscord = {
