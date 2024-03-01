@@ -65,15 +65,15 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "v1.32.2",
-            "sha256": "sha256-MYOZHQMYbbP01z0FyoCgTzwY1/71eUCmJYYfYvN9+so=",
+            "rev": "v1.33.0",
+            "sha256": "sha256-CFbpysU+kQeGvdaL57DfyKYXM4f5fjJQRBsnOfi98os=",
             "type": "github"
         },
-        "version": "v1.32.2"
+        "version": "v1.33.0"
     },
     "imhex-git": {
         "cargoLocks": null,
-        "date": "2024-02-28",
+        "date": "2024-02-29",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -85,11 +85,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "f886eac7b592183b9b572e99cc5e9bf490277abf",
-            "sha256": "sha256-6jvEtMgG2AIHeptYEtQSwp7MQZdtIsX1WIGO9UdHYPw=",
+            "rev": "735d89626031a1a6a4dff71c602941a3c3eb3ede",
+            "sha256": "sha256-EmcVwTIWqNKhkZpGbv4aDtY1//u/liY9bM5wYowAdMk=",
             "type": "github"
         },
-        "version": "f886eac7b592183b9b572e99cc5e9bf490277abf"
+        "version": "735d89626031a1a6a4dff71c602941a3c3eb3ede"
     },
     "imhex-patterns": {
         "cargoLocks": null,
@@ -105,11 +105,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "ImHex-v1.32.2",
-            "sha256": "sha256-K+LiQvykCrOwhEVy37lh7VSf5YJyBQtLz8AGFsuRznQ=",
+            "rev": "ImHex-v1.33.0",
+            "sha256": "sha256-BJFxRnfoSt2uSY7XQboRoehLfSvN2O36h5+kRYNT1Gw=",
             "type": "github"
         },
-        "version": "ImHex-v1.32.2"
+        "version": "ImHex-v1.33.0"
     },
     "imhex-patterns-git": {
         "cargoLocks": null,
@@ -206,12 +206,12 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscode-zig-0.5.3.zip",
-            "sha256": "sha256-F6MDfVwmOpq4hgmIh0k9UW/ziAeT9aenri5E5z2mGw0=",
+            "name": "vscode-zig-0.5.4.zip",
+            "sha256": "sha256-kczkVm847COmpNtUJI5lsZIuM7qAU6UgE8SCj8ZhIaA=",
             "type": "url",
-            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "0.5.3"
+        "version": "0.5.4"
     },
     "vscord": {
         "cargoLocks": null,
