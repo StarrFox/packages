@@ -37,13 +37,13 @@
   };
   imhex = {
     pname = "imhex";
-    version = "v1.33.1";
+    version = "v1.33.2";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.33.1";
+      rev = "v1.33.2";
       fetchSubmodules = true;
-      sha256 = "sha256-cbWeY1keetge8kjQhtK0wWJ2hTLgLb5T0uMqfrWNpMs=";
+      sha256 = "sha256-8Ehpk0TjE4itQ7D9Nx74plYwABVufuYmxfxyuSqak1c=";
     };
   };
   imhex-git = {
@@ -60,13 +60,13 @@
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.33.1";
+    version = "ImHex-v1.33.2";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.33.1";
+      rev = "ImHex-v1.33.2";
       fetchSubmodules = false;
-      sha256 = "sha256-tC7WllIFjWMvRjuHTsHHUG5g/Ptluv8WfzaLSp1PpkQ=";
+      sha256 = "sha256-5a6aFT8R8vMzPS+Y+fcDV5+olhioEpLjdMqa7qOyGsw=";
     };
   };
   imhex-patterns-git = {
@@ -131,11 +131,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.2.1";
+    version = "5.2.4";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.2.1.zip";
-      sha256 = "sha256-2biP0q808DAiXO3PSwaiXeEr58yxkNI1XrIVB5ZdAFs=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.2.4.zip";
+      sha256 = "sha256-PlBQG7w1ZHj3bedzwxHMW1wNvDotcrEwpHwwjozPwa4=";
     };
   };
 }
