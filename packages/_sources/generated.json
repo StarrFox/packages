@@ -65,11 +65,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "v1.33.1",
-            "sha256": "sha256-cbWeY1keetge8kjQhtK0wWJ2hTLgLb5T0uMqfrWNpMs=",
+            "rev": "v1.33.2",
+            "sha256": "sha256-8Ehpk0TjE4itQ7D9Nx74plYwABVufuYmxfxyuSqak1c=",
             "type": "github"
         },
-        "version": "v1.33.1"
+        "version": "v1.33.2"
     },
     "imhex-git": {
         "cargoLocks": null,
@@ -105,11 +105,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "ImHex-v1.33.1",
-            "sha256": "sha256-tC7WllIFjWMvRjuHTsHHUG5g/Ptluv8WfzaLSp1PpkQ=",
+            "rev": "ImHex-v1.33.2",
+            "sha256": "sha256-5a6aFT8R8vMzPS+Y+fcDV5+olhioEpLjdMqa7qOyGsw=",
             "type": "github"
         },
-        "version": "ImHex-v1.33.1"
+        "version": "ImHex-v1.33.2"
     },
     "imhex-patterns-git": {
         "cargoLocks": null,
@@ -221,11 +221,11 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscord-5.2.1.zip",
-            "sha256": "sha256-2biP0q808DAiXO3PSwaiXeEr58yxkNI1XrIVB5ZdAFs=",
+            "name": "vscord-5.2.4.zip",
+            "sha256": "sha256-PlBQG7w1ZHj3bedzwxHMW1wNvDotcrEwpHwwjozPwa4=",
             "type": "url",
-            "url": "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "5.2.1"
+        "version": "5.2.4"
     }
 }
