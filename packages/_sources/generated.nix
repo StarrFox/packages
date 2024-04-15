@@ -122,20 +122,20 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.5.4";
+    version = "0.5.6";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.5.4.zip";
-      sha256 = "sha256-kczkVm847COmpNtUJI5lsZIuM7qAU6UgE8SCj8ZhIaA=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.5.6.zip";
+      sha256 = "sha256-qwlSBwOIkUNuI50ktHcqZwJ0e5q9N+dq3F7QsfN2um8=";
     };
   };
   vscord = {
     pname = "vscord";
-    version = "5.2.4";
+    version = "5.2.9";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.2.4.zip";
-      sha256 = "sha256-PlBQG7w1ZHj3bedzwxHMW1wNvDotcrEwpHwwjozPwa4=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.2.9.zip";
+      sha256 = "sha256-HJvVpX2cativdyxsnVjJBRvITwmkyoWehafWL95S2B0=";
     };
   };
 }
