@@ -48,15 +48,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "4b1b52caf02b0e7812c94a9826f76fabf007b714";
+    version = "cc7a0db35c0629019bad5e5afdd8a7fd1b86a370";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "4b1b52caf02b0e7812c94a9826f76fabf007b714";
+      rev = "cc7a0db35c0629019bad5e5afdd8a7fd1b86a370";
       fetchSubmodules = true;
-      sha256 = "sha256-oLMQwaelGhnrgm9l56KFtkwsRaPz9I7LYpPs10xJMYE=";
+      sha256 = "sha256-hk2t02h0Sv5kZ2lE3FnXYyCO1aGfyiB4UelY92R+xYo=";
     };
-    date = "2024-04-13";
+    date = "2024-04-21";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
@@ -71,15 +71,15 @@
   };
   imhex-patterns-git = {
     pname = "imhex-patterns-git";
-    version = "cb6caafa646459c77467d2994023cb1a4bffd86d";
+    version = "03298b0b0c7c06330238d50c08cc3304a58af49a";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "cb6caafa646459c77467d2994023cb1a4bffd86d";
+      rev = "03298b0b0c7c06330238d50c08cc3304a58af49a";
       fetchSubmodules = false;
-      sha256 = "sha256-U21BDoAg2KMUvqUQ//s4+C4LLk6lm/2rG9XX+NeZw18=";
+      sha256 = "sha256-W5FSe/W0nFYY9D6cmkuTsvI/Pz174kVlAZV1rstEyIA=";
     };
-    date = "2024-03-29";
+    date = "2024-04-21";
   };
   monokai-highcontrast = {
     pname = "monokai-highcontrast";
