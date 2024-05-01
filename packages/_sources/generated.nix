@@ -122,11 +122,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.5.6";
+    version = "0.5.7";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.5.6.zip";
-      sha256 = "sha256-qwlSBwOIkUNuI50ktHcqZwJ0e5q9N+dq3F7QsfN2um8=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.5.7.zip";
+      sha256 = "sha256-YLXdiXJriC7E05bRHLGNxNWYJq17tOrjaLlTHoMDa4Y=";
     };
   };
   vscord = {
