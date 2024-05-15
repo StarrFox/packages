@@ -16,23 +16,23 @@
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.9.8";
+    version = "v0.9.10";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.9.8";
+      rev = "v0.9.10";
       fetchSubmodules = false;
-      sha256 = "sha256-QpUZxho9hzmgbCFgNxwwKi6hhfyqc4b/JYKH3rP4Eb8=";
+      sha256 = "sha256-0QzCXja1UXPEC8JQIXH9Dl4PPKzqWgIy13FCYxEqggA=";
     };
     vendorHash = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
   github-code-owners = {
     pname = "github-code-owners";
-    version = "3.3.0";
+    version = "4.1.0";
     src = fetchurl {
-      url = "https://chdsbd.gallery.vsassets.io/_apis/public/gallery/publisher/chdsbd/extension/github-code-owners/3.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "github-code-owners-3.3.0.zip";
-      sha256 = "sha256-cMybIQnLHV+yacjKRJUiulI9kqZbVkjkbt/ycwZI5CA=";
+      url = "https://chdsbd.gallery.vsassets.io/_apis/public/gallery/publisher/chdsbd/extension/github-code-owners/4.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "github-code-owners-4.1.0.zip";
+      sha256 = "sha256-/GlbPGzZV+EwdkjMWUprdggNGXF0Ws3224h4UGzA3hA=";
     };
   };
   imhex = {
@@ -48,15 +48,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "dedd99f30c6bbf47ac1cc82a650a33303756ee6b";
+    version = "ceeda6de3be9bfc39b4e2d6f788ad04da93cbb9f";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "dedd99f30c6bbf47ac1cc82a650a33303756ee6b";
+      rev = "ceeda6de3be9bfc39b4e2d6f788ad04da93cbb9f";
       fetchSubmodules = true;
-      sha256 = "sha256-aMDppGikDPamLtuMQgfDJ12Zk9bxD4OkoYKPh/mpRmE=";
+      sha256 = "sha256-+wXo3OTBpFt6GwqrXqeK0bX1U8jjlUsJDlMYOY+gqCQ=";
     };
-    date = "2024-05-12";
+    date = "2024-05-14";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
@@ -131,11 +131,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.2.9";
+    version = "5.2.10";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.2.9.zip";
-      sha256 = "sha256-HJvVpX2cativdyxsnVjJBRvITwmkyoWehafWL95S2B0=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.2.10.zip";
+      sha256 = "sha256-RKQcLiuzaPInZ1SG0Rg7a2oOZ3+EbiAu6er8YRLA0Fs=";
     };
   };
 }
