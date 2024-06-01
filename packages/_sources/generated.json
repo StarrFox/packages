@@ -73,7 +73,7 @@
     },
     "imhex-git": {
         "cargoLocks": null,
-        "date": "2024-05-30",
+        "date": "2024-05-31",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -85,11 +85,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "0ab200f77f1ad6b4f6f38869f58b739c977c50c7",
-            "sha256": "sha256-x4sLZeU3ijDm/zE9IupMvbG9rEPlKsEEjk3FJPC/0y4=",
+            "rev": "d1b6a21e86062584d332b15eecba176e5e1fe3ab",
+            "sha256": "sha256-MVlfSGIDIxry0Qs0uIhaJ/EE85/WaAvwxcAK5W5bWJA=",
             "type": "github"
         },
-        "version": "0ab200f77f1ad6b4f6f38869f58b739c977c50c7"
+        "version": "d1b6a21e86062584d332b15eecba176e5e1fe3ab"
     },
     "imhex-patterns": {
         "cargoLocks": null,
@@ -206,12 +206,12 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscode-zig-0.5.7.zip",
-            "sha256": "sha256-YLXdiXJriC7E05bRHLGNxNWYJq17tOrjaLlTHoMDa4Y=",
+            "name": "vscode-zig-0.5.8.zip",
+            "sha256": "sha256-W5LaY7ZrTCnB/KMfAjNj6Qk2Mw6pGUGKJAurH2lReuA=",
             "type": "url",
-            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "0.5.7"
+        "version": "0.5.8"
     },
     "vscord": {
         "cargoLocks": null,
