@@ -3,7 +3,7 @@
 
   inputs = {
     # TODO: update nixpkgs every os release
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
     flake-parts.url = "github:hercules-ci/flake-parts/";
     nix-systems.url = "github:nix-systems/default";
     nvfetcher.url = "github:berberman/nvfetcher";
