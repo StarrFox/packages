@@ -73,7 +73,7 @@
     },
     "imhex-git": {
         "cargoLocks": null,
-        "date": "2024-06-08",
+        "date": "2024-06-09",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -85,11 +85,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "9cff5b8af49ea602a563d30e0eb4887fab2cd461",
-            "sha256": "sha256-Ck21mYBDiziyVYdsEc3amUSix+70zj83nN4WJTn6Hu0=",
+            "rev": "bf518b3590f91444b158463272018a33ed491144",
+            "sha256": "sha256-18frvj7PxryoOue651wBNhemxVSrnJGQUh0Rplp6ldU=",
             "type": "github"
         },
-        "version": "9cff5b8af49ea602a563d30e0eb4887fab2cd461"
+        "version": "bf518b3590f91444b158463272018a33ed491144"
     },
     "imhex-patterns": {
         "cargoLocks": null,
@@ -113,7 +113,7 @@
     },
     "imhex-patterns-git": {
         "cargoLocks": null,
-        "date": "2024-05-20",
+        "date": "2024-06-09",
         "extract": null,
         "name": "imhex-patterns-git",
         "passthru": null,
@@ -125,11 +125,11 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "10bf1c76cfa74ef4a5166b593b217fff803008c0",
-            "sha256": "sha256-QJzHLzqXS0XhKDHSXGppmny604CeXld9Dfw4g1kqwLE=",
+            "rev": "3416d30f2b8fac4f12bf73aa1f5d5102a07b7f83",
+            "sha256": "sha256-DFt+ZQ16tZONZPkM5t/fMSh1ZqZbnnYVSbPMnoBCOkE=",
             "type": "github"
         },
-        "version": "10bf1c76cfa74ef4a5166b593b217fff803008c0"
+        "version": "3416d30f2b8fac4f12bf73aa1f5d5102a07b7f83"
     },
     "monokai-highcontrast": {
         "cargoLocks": null,
