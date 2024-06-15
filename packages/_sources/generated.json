@@ -30,11 +30,12 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.9.10",
-            "sha256": "sha256-0QzCXja1UXPEC8JQIXH9Dl4PPKzqWgIy13FCYxEqggA=",
+            "rev": "v0.10.1",
+            "sha256": "sha256-ZQkXXaa4n88bJdgP2FSXtgBrUi39teO98SzZq+I5doM=",
+            "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.9.10"
+        "version": "v0.10.1"
     },
     "github-code-owners": {
         "cargoLocks": null,
@@ -65,11 +66,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "v1.33.2",
-            "sha256": "sha256-8Ehpk0TjE4itQ7D9Nx74plYwABVufuYmxfxyuSqak1c=",
+            "rev": "v1.34.0",
+            "sha256": "sha256-ZPjiWVhyY8Is/puSqgrblRMDnPl02ocngaTYtsvgZ10=",
+            "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v1.33.2"
+        "version": "v1.34.0"
     },
     "imhex-git": {
         "cargoLocks": null,
@@ -87,6 +89,7 @@
             "repo": "imhex",
             "rev": "bd085dd495950277a23ddb997464b4139cd9c6ff",
             "sha256": "sha256-YtMY85Y899wPxcdJDXxTnAubdtgbFaNmo4vThgAUW/Y=",
+            "sparseCheckout": [],
             "type": "github"
         },
         "version": "bd085dd495950277a23ddb997464b4139cd9c6ff"
@@ -105,11 +108,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "ImHex-v1.33.2",
-            "sha256": "sha256-5a6aFT8R8vMzPS+Y+fcDV5+olhioEpLjdMqa7qOyGsw=",
+            "rev": "ImHex-v1.34.0",
+            "sha256": "sha256-QJzHLzqXS0XhKDHSXGppmny604CeXld9Dfw4g1kqwLE=",
+            "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ImHex-v1.33.2"
+        "version": "ImHex-v1.34.0"
     },
     "imhex-patterns-git": {
         "cargoLocks": null,
@@ -127,6 +131,7 @@
             "repo": "ImHex-Patterns",
             "rev": "3416d30f2b8fac4f12bf73aa1f5d5102a07b7f83",
             "sha256": "sha256-DFt+ZQ16tZONZPkM5t/fMSh1ZqZbnnYVSbPMnoBCOkE=",
+            "sparseCheckout": [],
             "type": "github"
         },
         "version": "3416d30f2b8fac4f12bf73aa1f5d5102a07b7f83"
@@ -164,6 +169,7 @@
             "repo": "mrpack-install",
             "rev": "v0.16.10",
             "sha256": "sha256-mTAXFK97t10imdICpg0UI4YLF744oscJqoOIBG5GEkc=",
+            "sparseCheckout": [],
             "type": "github"
         },
         "version": "v0.16.10"
@@ -176,12 +182,12 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "coconut-2.2.3.zip",
-            "sha256": "sha256-5PzL5NDLr8YTCQFAgXE1Ipb1WclFjKtcIdVBLWc593k=",
+            "name": "coconut-2.2.4.zip",
+            "sha256": "sha256-oi6Ct17wf0e6fB/Wf9Gy1wY+Q19WV15TjgJIBdJr198=",
             "type": "url",
-            "url": "https://evhub.gallery.vsassets.io/_apis/public/gallery/publisher/evhub/extension/coconut/2.2.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://evhub.gallery.vsassets.io/_apis/public/gallery/publisher/evhub/extension/coconut/2.2.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "2.2.3"
+        "version": "2.2.4"
     },
     "vscode-lark": {
         "cargoLocks": null,
@@ -221,11 +227,11 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscord-5.2.10.zip",
-            "sha256": "sha256-RKQcLiuzaPInZ1SG0Rg7a2oOZ3+EbiAu6er8YRLA0Fs=",
+            "name": "vscord-5.2.12.zip",
+            "sha256": "sha256-WGDEizYG6UAqe1jnhvjfFouXDA9Yr5P+BjxPahAIsTE=",
             "type": "url",
-            "url": "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "5.2.10"
+        "version": "5.2.12"
     }
 }
