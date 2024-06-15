@@ -16,13 +16,13 @@
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.9.10";
+    version = "v0.10.1";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.9.10";
+      rev = "v0.10.1";
       fetchSubmodules = false;
-      sha256 = "sha256-0QzCXja1UXPEC8JQIXH9Dl4PPKzqWgIy13FCYxEqggA=";
+      sha256 = "sha256-ZQkXXaa4n88bJdgP2FSXtgBrUi39teO98SzZq+I5doM=";
     };
     vendorHash = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
@@ -37,13 +37,13 @@
   };
   imhex = {
     pname = "imhex";
-    version = "v1.33.2";
+    version = "v1.34.0";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.33.2";
+      rev = "v1.34.0";
       fetchSubmodules = true;
-      sha256 = "sha256-8Ehpk0TjE4itQ7D9Nx74plYwABVufuYmxfxyuSqak1c=";
+      sha256 = "sha256-ZPjiWVhyY8Is/puSqgrblRMDnPl02ocngaTYtsvgZ10=";
     };
   };
   imhex-git = {
@@ -60,13 +60,13 @@
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.33.2";
+    version = "ImHex-v1.34.0";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.33.2";
+      rev = "ImHex-v1.34.0";
       fetchSubmodules = false;
-      sha256 = "sha256-5a6aFT8R8vMzPS+Y+fcDV5+olhioEpLjdMqa7qOyGsw=";
+      sha256 = "sha256-QJzHLzqXS0XhKDHSXGppmny604CeXld9Dfw4g1kqwLE=";
     };
   };
   imhex-patterns-git = {
@@ -104,11 +104,11 @@
   };
   vscode-coconut = {
     pname = "vscode-coconut";
-    version = "2.2.3";
+    version = "2.2.4";
     src = fetchurl {
-      url = "https://evhub.gallery.vsassets.io/_apis/public/gallery/publisher/evhub/extension/coconut/2.2.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "coconut-2.2.3.zip";
-      sha256 = "sha256-5PzL5NDLr8YTCQFAgXE1Ipb1WclFjKtcIdVBLWc593k=";
+      url = "https://evhub.gallery.vsassets.io/_apis/public/gallery/publisher/evhub/extension/coconut/2.2.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "coconut-2.2.4.zip";
+      sha256 = "sha256-oi6Ct17wf0e6fB/Wf9Gy1wY+Q19WV15TjgJIBdJr198=";
     };
   };
   vscode-lark = {
@@ -131,11 +131,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.2.10";
+    version = "5.2.12";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.2.10.zip";
-      sha256 = "sha256-RKQcLiuzaPInZ1SG0Rg7a2oOZ3+EbiAu6er8YRLA0Fs=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.2.12.zip";
+      sha256 = "sha256-WGDEizYG6UAqe1jnhvjfFouXDA9Yr5P+BjxPahAIsTE=";
     };
   };
 }
