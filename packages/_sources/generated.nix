@@ -37,49 +37,49 @@
   };
   imhex = {
     pname = "imhex";
-    version = "v1.34.0";
+    version = "v1.35.3";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.34.0";
+      rev = "v1.35.3";
       fetchSubmodules = true;
-      sha256 = "sha256-ZPjiWVhyY8Is/puSqgrblRMDnPl02ocngaTYtsvgZ10=";
+      sha256 = "sha256-8vhOOHfg4D9B9yYgnGZBpcjAjuL4M4oHHax9ad5PJtA=";
     };
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "ca5763650ba4ddc97edcef05781f0af4312bba7f";
+    version = "71880ad2adaaf4f397eadf4d178d476dac2a9b51";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "ca5763650ba4ddc97edcef05781f0af4312bba7f";
+      rev = "71880ad2adaaf4f397eadf4d178d476dac2a9b51";
       fetchSubmodules = true;
-      sha256 = "sha256-HegJoPUvbqCc9nuUNj8z9vfN2Zapb+W5wFsZRQNgr6c=";
+      sha256 = "sha256-N0UAmFmFhunQ9np22wCk/e672fjoscP5k66WF4B8yjk=";
     };
-    date = "2024-06-19";
+    date = "2024-06-30";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.34.0";
+    version = "ImHex-v1.35.3";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.34.0";
+      rev = "ImHex-v1.35.3";
       fetchSubmodules = false;
-      sha256 = "sha256-QJzHLzqXS0XhKDHSXGppmny604CeXld9Dfw4g1kqwLE=";
+      sha256 = "sha256-h86qoFMSP9ehsXJXOccUK9Mfqe+DVObfSRT4TCtK0rY=";
     };
   };
   imhex-patterns-git = {
     pname = "imhex-patterns-git";
-    version = "28b281b403e6b6aed7b334462ab21ff008beb4f3";
+    version = "21a0b99eaca5609e3adbe8bdf7adba56072b0d3e";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "28b281b403e6b6aed7b334462ab21ff008beb4f3";
+      rev = "21a0b99eaca5609e3adbe8bdf7adba56072b0d3e";
       fetchSubmodules = false;
-      sha256 = "sha256-relcG7gyIE0zr2UaT/q1rWNQDmsEskU6an3AUYPWw20=";
+      sha256 = "sha256-yIT/baejUMdlJ16caUBeR6jutlmKdg+wKU4AUQoKpGY=";
     };
-    date = "2024-06-16";
+    date = "2024-06-29";
   };
   monokai-highcontrast = {
     pname = "monokai-highcontrast";
