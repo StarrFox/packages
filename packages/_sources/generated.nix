@@ -48,15 +48,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "212d2f9db45f3b2c2b0348e3a90aa3c615efc435";
+    version = "04763eaeea0663d8deb1597a66603fa804c2ab89";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "212d2f9db45f3b2c2b0348e3a90aa3c615efc435";
+      rev = "04763eaeea0663d8deb1597a66603fa804c2ab89";
       fetchSubmodules = true;
-      sha256 = "sha256-MJnlLRECTJHt66imPmaE+g6DGbEYCW6OBWiNj1tS4QE=";
+      sha256 = "sha256-q5+Gu0TQmVJo3gBwZIjo5rCHhzOqpBq8Ro7OKFFWGUM=";
     };
-    date = "2024-08-10";
+    date = "2024-08-23";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
@@ -71,15 +71,15 @@
   };
   imhex-patterns-git = {
     pname = "imhex-patterns-git";
-    version = "26d48df7dd8d6dc0e631bd542cfa71879399afd4";
+    version = "1d66949375e8ca05dcb4d96121468aac4ebec3c4";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "26d48df7dd8d6dc0e631bd542cfa71879399afd4";
+      rev = "1d66949375e8ca05dcb4d96121468aac4ebec3c4";
       fetchSubmodules = false;
-      sha256 = "sha256-T7tVQAIEjK4Mh5vjlwrkFpzR5QuCCTHqp2bPt9Q67Cc=";
+      sha256 = "sha256-ahXUvUvWOj2JA9g074X60cuHs2yDQQoDCukel4DQPtY=";
     };
-    date = "2024-08-09";
+    date = "2024-08-20";
   };
   monokai-highcontrast = {
     pname = "monokai-highcontrast";
@@ -131,11 +131,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.2.12";
+    version = "5.2.13";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.2.12.zip";
-      sha256 = "sha256-WGDEizYG6UAqe1jnhvjfFouXDA9Yr5P+BjxPahAIsTE=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.13/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.2.13.zip";
+      sha256 = "sha256-Jgm3ekXFLhylX7RM6tdfi+lRLrcl4UQGmRHbr27M59M=";
     };
   };
 }
