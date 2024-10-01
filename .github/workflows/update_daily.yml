@@ -24,7 +24,7 @@ jobs:
             - run: nix develop --command just update-git-packages
             - name: Create PR
               id: createpr
-              uses: peter-evans/create-pull-request@v6
+              uses: peter-evans/create-pull-request@v7
               with:
                 title: "update daily packages"
                 branch: update
