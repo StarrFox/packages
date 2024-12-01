@@ -16,13 +16,13 @@
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.11.0";
+    version = "v0.12.0";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.11.0";
+      rev = "v0.12.0";
       fetchSubmodules = false;
-      sha256 = "sha256-xLeIqTGwizvBmOgwisqoCrFY4KdWoWrA0YYgPWtQT/M=";
+      sha256 = "sha256-GRTBYwphw5rpwFzLrBRpzz6z6udNCdPn3vanfMvBtGI=";
     };
     vendorHash = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
@@ -48,15 +48,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "6d14b3f6bdeec09894d10401536f8f0232d68c17";
+    version = "0ff1bb392c36d69ef88a534ad2453998dbf74634";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "6d14b3f6bdeec09894d10401536f8f0232d68c17";
+      rev = "0ff1bb392c36d69ef88a534ad2453998dbf74634";
       fetchSubmodules = true;
-      sha256 = "sha256-H/10RiM6bGIhQvgZmkvRYIhxcApl6wP8yN7Dw9SXkKM=";
+      sha256 = "sha256-gfXjuoAR7KHQP9K6GMmCxC2qpjRiewymlmstifH6z4g=";
     };
-    date = "2024-11-07";
+    date = "2024-11-30";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
@@ -71,15 +71,15 @@
   };
   imhex-patterns-git = {
     pname = "imhex-patterns-git";
-    version = "1d66949375e8ca05dcb4d96121468aac4ebec3c4";
+    version = "4c96bfbeb331efbcd0747aaaf17535798cc276dc";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "1d66949375e8ca05dcb4d96121468aac4ebec3c4";
+      rev = "4c96bfbeb331efbcd0747aaaf17535798cc276dc";
       fetchSubmodules = false;
-      sha256 = "sha256-ahXUvUvWOj2JA9g074X60cuHs2yDQQoDCukel4DQPtY=";
+      sha256 = "sha256-g/THYAu2OvT/YKovv2oO3V1kSZV27o6DNvJtHO1IyBY=";
     };
-    date = "2024-08-20";
+    date = "2024-11-28";
   };
   monokai-highcontrast = {
     pname = "monokai-highcontrast";
@@ -122,11 +122,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.5.9";
+    version = "0.5.10";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.5.9.zip";
-      sha256 = "sha256-tKDIGALQT4mgZ7u+LSbdzW2pdH0RhyUjpWyH4YHNR10=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.5.10.zip";
+      sha256 = "sha256-gesW9nUfXBnXjm+wi5zRxfOMt46rf+wYV+vJEfLc44k=";
     };
   };
   vscord = {

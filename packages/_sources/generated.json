@@ -30,12 +30,12 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.11.0",
-            "sha256": "sha256-xLeIqTGwizvBmOgwisqoCrFY4KdWoWrA0YYgPWtQT/M=",
+            "rev": "v0.12.0",
+            "sha256": "sha256-GRTBYwphw5rpwFzLrBRpzz6z6udNCdPn3vanfMvBtGI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.11.0"
+        "version": "v0.12.0"
     },
     "github-code-owners": {
         "cargoLocks": null,
@@ -75,7 +75,7 @@
     },
     "imhex-git": {
         "cargoLocks": null,
-        "date": "2024-11-07",
+        "date": "2024-11-30",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -87,12 +87,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "6d14b3f6bdeec09894d10401536f8f0232d68c17",
-            "sha256": "sha256-H/10RiM6bGIhQvgZmkvRYIhxcApl6wP8yN7Dw9SXkKM=",
+            "rev": "0ff1bb392c36d69ef88a534ad2453998dbf74634",
+            "sha256": "sha256-gfXjuoAR7KHQP9K6GMmCxC2qpjRiewymlmstifH6z4g=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6d14b3f6bdeec09894d10401536f8f0232d68c17"
+        "version": "0ff1bb392c36d69ef88a534ad2453998dbf74634"
     },
     "imhex-patterns": {
         "cargoLocks": null,
@@ -117,7 +117,7 @@
     },
     "imhex-patterns-git": {
         "cargoLocks": null,
-        "date": "2024-08-20",
+        "date": "2024-11-28",
         "extract": null,
         "name": "imhex-patterns-git",
         "passthru": null,
@@ -129,12 +129,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "1d66949375e8ca05dcb4d96121468aac4ebec3c4",
-            "sha256": "sha256-ahXUvUvWOj2JA9g074X60cuHs2yDQQoDCukel4DQPtY=",
+            "rev": "4c96bfbeb331efbcd0747aaaf17535798cc276dc",
+            "sha256": "sha256-g/THYAu2OvT/YKovv2oO3V1kSZV27o6DNvJtHO1IyBY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1d66949375e8ca05dcb4d96121468aac4ebec3c4"
+        "version": "4c96bfbeb331efbcd0747aaaf17535798cc276dc"
     },
     "monokai-highcontrast": {
         "cargoLocks": null,
@@ -212,12 +212,12 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscode-zig-0.5.9.zip",
-            "sha256": "sha256-tKDIGALQT4mgZ7u+LSbdzW2pdH0RhyUjpWyH4YHNR10=",
+            "name": "vscode-zig-0.5.10.zip",
+            "sha256": "sha256-gesW9nUfXBnXjm+wi5zRxfOMt46rf+wYV+vJEfLc44k=",
             "type": "url",
-            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "0.5.9"
+        "version": "0.5.10"
     },
     "vscord": {
         "cargoLocks": null,
