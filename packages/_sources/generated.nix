@@ -48,15 +48,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "0ff1bb392c36d69ef88a534ad2453998dbf74634";
+    version = "5511259f2ddbd685682be7e05004891311d170d7";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "0ff1bb392c36d69ef88a534ad2453998dbf74634";
+      rev = "5511259f2ddbd685682be7e05004891311d170d7";
       fetchSubmodules = true;
-      sha256 = "sha256-gfXjuoAR7KHQP9K6GMmCxC2qpjRiewymlmstifH6z4g=";
+      sha256 = "sha256-jmorMHYmcZDErfIUW/CPTrgi78svogg9aIe6MRhYIYI=";
     };
-    date = "2024-11-30";
+    date = "2024-12-15";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
@@ -71,15 +71,15 @@
   };
   imhex-patterns-git = {
     pname = "imhex-patterns-git";
-    version = "4c96bfbeb331efbcd0747aaaf17535798cc276dc";
+    version = "63504f59a191376377c250902fcc3f5358cea746";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "4c96bfbeb331efbcd0747aaaf17535798cc276dc";
+      rev = "63504f59a191376377c250902fcc3f5358cea746";
       fetchSubmodules = false;
-      sha256 = "sha256-g/THYAu2OvT/YKovv2oO3V1kSZV27o6DNvJtHO1IyBY=";
+      sha256 = "sha256-ikq8LICIYQyEqIgTmfYyFDbnv8TvStaImLR6CAeQ1CI=";
     };
-    date = "2024-11-28";
+    date = "2024-12-14";
   };
   monokai-highcontrast = {
     pname = "monokai-highcontrast";
@@ -122,11 +122,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.5.10";
+    version = "0.6.3";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.5.10.zip";
-      sha256 = "sha256-gesW9nUfXBnXjm+wi5zRxfOMt46rf+wYV+vJEfLc44k=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.6.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.6.3.zip";
+      sha256 = "sha256-NpsNUZKfMay/4p8NTKkL53nwklEh88J750tpiEF2ghc=";
     };
   };
   vscord = {
