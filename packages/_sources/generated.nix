@@ -16,13 +16,13 @@
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.12.0";
+    version = "v0.13.0";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.12.0";
+      rev = "v0.13.0";
       fetchSubmodules = false;
-      sha256 = "sha256-GRTBYwphw5rpwFzLrBRpzz6z6udNCdPn3vanfMvBtGI=";
+      sha256 = "sha256-foUv6+QIfPlYwgTwxFvEgGeOw/mpC80+ntHo29LQbB8=";
     };
     vendorHash = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
@@ -37,49 +37,49 @@
   };
   imhex = {
     pname = "imhex";
-    version = "v1.35.4";
+    version = "v1.37.4";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.35.4";
+      rev = "v1.37.4";
       fetchSubmodules = true;
-      sha256 = "sha256-6QpmFkSMQpGlEzo7BHZn20c+q8CTDUB4yO87wMU5JT4=";
+      sha256 = "sha256-uenwAaIjtBzrtiLdy6fh5TxtbWtUJbtybNOLP3+8blA=";
     };
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "0ff1bb392c36d69ef88a534ad2453998dbf74634";
+    version = "c0a222644be746d30e46bb512041357fc3486251";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "0ff1bb392c36d69ef88a534ad2453998dbf74634";
+      rev = "c0a222644be746d30e46bb512041357fc3486251";
       fetchSubmodules = true;
-      sha256 = "sha256-gfXjuoAR7KHQP9K6GMmCxC2qpjRiewymlmstifH6z4g=";
+      sha256 = "sha256-q4mLjVoGMXIxS7Au8s6bKBoDJagtbYkDcYb5QPal/jU=";
     };
-    date = "2024-11-30";
+    date = "2025-03-11";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.35.4";
+    version = "ImHex-v1.37.4";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.35.4";
+      rev = "ImHex-v1.37.4";
       fetchSubmodules = false;
-      sha256 = "sha256-7ch2KXkbkdRAvo3HyErWcth3kG4bzYvp9I5GZSsb/BQ=";
+      sha256 = "sha256-2NgMYaG6+XKp0fIHAn3vAcoXXa3EF4HV01nI+t1IL1U=";
     };
   };
   imhex-patterns-git = {
     pname = "imhex-patterns-git";
-    version = "4c96bfbeb331efbcd0747aaaf17535798cc276dc";
+    version = "fb8e5e3f77d75856b0441b8b1ce52791a006181d";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "4c96bfbeb331efbcd0747aaaf17535798cc276dc";
+      rev = "fb8e5e3f77d75856b0441b8b1ce52791a006181d";
       fetchSubmodules = false;
-      sha256 = "sha256-g/THYAu2OvT/YKovv2oO3V1kSZV27o6DNvJtHO1IyBY=";
+      sha256 = "sha256-CNetjuhtjAiu4zBrZRlWaHM2oDQWzkLDi2hBwueqZVM=";
     };
-    date = "2024-11-28";
+    date = "2025-02-28";
   };
   monokai-highcontrast = {
     pname = "monokai-highcontrast";
@@ -122,11 +122,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.5.10";
+    version = "0.6.6";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.5.10.zip";
-      sha256 = "sha256-gesW9nUfXBnXjm+wi5zRxfOMt46rf+wYV+vJEfLc44k=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.6.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.6.6.zip";
+      sha256 = "sha256-UxbCRsTp7Fz6iAeC3lwojWrLPMJx5b7cNXxOFY7k0pk=";
     };
   };
   vscord = {
