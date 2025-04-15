@@ -30,12 +30,12 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.12.0",
-            "sha256": "sha256-GRTBYwphw5rpwFzLrBRpzz6z6udNCdPn3vanfMvBtGI=",
+            "rev": "v0.13.0",
+            "sha256": "sha256-foUv6+QIfPlYwgTwxFvEgGeOw/mpC80+ntHo29LQbB8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.12.0"
+        "version": "v0.13.0"
     },
     "github-code-owners": {
         "cargoLocks": null,
@@ -66,16 +66,16 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "v1.35.4",
-            "sha256": "sha256-6QpmFkSMQpGlEzo7BHZn20c+q8CTDUB4yO87wMU5JT4=",
+            "rev": "v1.37.4",
+            "sha256": "sha256-uenwAaIjtBzrtiLdy6fh5TxtbWtUJbtybNOLP3+8blA=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v1.35.4"
+        "version": "v1.37.4"
     },
     "imhex-git": {
         "cargoLocks": null,
-        "date": "2024-11-30",
+        "date": "2025-04-14",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -87,12 +87,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "0ff1bb392c36d69ef88a534ad2453998dbf74634",
-            "sha256": "sha256-gfXjuoAR7KHQP9K6GMmCxC2qpjRiewymlmstifH6z4g=",
+            "rev": "02cadc264e62469efc7cee6938ffcd3669ad0fd4",
+            "sha256": "sha256-fLlJQ32+g0w/W5covmxP01DnSq0yTl6dGFhMpTmt+tE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "0ff1bb392c36d69ef88a534ad2453998dbf74634"
+        "version": "02cadc264e62469efc7cee6938ffcd3669ad0fd4"
     },
     "imhex-patterns": {
         "cargoLocks": null,
@@ -108,16 +108,16 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "ImHex-v1.35.4",
-            "sha256": "sha256-7ch2KXkbkdRAvo3HyErWcth3kG4bzYvp9I5GZSsb/BQ=",
+            "rev": "ImHex-v1.37.4",
+            "sha256": "sha256-2NgMYaG6+XKp0fIHAn3vAcoXXa3EF4HV01nI+t1IL1U=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ImHex-v1.35.4"
+        "version": "ImHex-v1.37.4"
     },
     "imhex-patterns-git": {
         "cargoLocks": null,
-        "date": "2024-11-28",
+        "date": "2025-03-24",
         "extract": null,
         "name": "imhex-patterns-git",
         "passthru": null,
@@ -129,12 +129,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "4c96bfbeb331efbcd0747aaaf17535798cc276dc",
-            "sha256": "sha256-g/THYAu2OvT/YKovv2oO3V1kSZV27o6DNvJtHO1IyBY=",
+            "rev": "a12b5ba4067b2643bbb9575283b9699a73ac75ef",
+            "sha256": "sha256-fBSeZgdiaObt3YEisb80aaoxHR6eKyDZQ2TedHFmD1Q=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "4c96bfbeb331efbcd0747aaaf17535798cc276dc"
+        "version": "a12b5ba4067b2643bbb9575283b9699a73ac75ef"
     },
     "monokai-highcontrast": {
         "cargoLocks": null,
@@ -212,12 +212,12 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscode-zig-0.5.10.zip",
-            "sha256": "sha256-gesW9nUfXBnXjm+wi5zRxfOMt46rf+wYV+vJEfLc44k=",
+            "name": "vscode-zig-0.6.8.zip",
+            "sha256": "sha256-u4Vd2YP47ccpz4ZMOGDN1eFS8qiC7nGIbo6YtvxNHFM=",
             "type": "url",
-            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.6.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "0.5.10"
+        "version": "0.6.8"
     },
     "vscord": {
         "cargoLocks": null,
