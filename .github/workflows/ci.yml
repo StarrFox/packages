@@ -9,7 +9,7 @@ jobs:
   check_flake:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Install Nix
       uses: DeterminateSystems/nix-installer-action@main
     - name: check flake
@@ -21,7 +21,7 @@ jobs:
     outputs:
       packages: ${{ steps.generate_packages.outputs.packages }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@main
       - name: generate flake.json
@@ -40,7 +40,7 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Install Nix
       uses: DeterminateSystems/nix-installer-action@main
     - uses: cachix/cachix-action@v16
