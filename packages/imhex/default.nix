@@ -14,7 +14,7 @@
   perl,
   python3,
   curl,
-  fmt_8,
+  fmt,
   #nlohmann_json,
   yara,
   rsync,
@@ -45,7 +45,7 @@ build_env.mkDerivation {
     curl
     dbus
     file
-    fmt_8
+    fmt
     glfw3
     gtk3
     libGLU
