@@ -7,22 +7,22 @@
 }: {
   andromeda = {
     pname = "andromeda";
-    version = "1.8.2";
+    version = "1.10.0";
     src = fetchurl {
-      url = "https://EliverLara.gallery.vsassets.io/_apis/public/gallery/publisher/EliverLara/extension/andromeda/1.8.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "andromeda-1.8.2.zip";
-      sha256 = "sha256-ur+zXuKluJ0DZS5/S4RaomibnJuFy4SE4tk9i+9+ORc=";
+      url = "https://EliverLara.gallery.vsassets.io/_apis/public/gallery/publisher/EliverLara/extension/andromeda/1.10.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "andromeda-1.10.0.zip";
+      sha256 = "sha256-W84m9b3Dzq2LjUpa/0hzSWbVokaxI4IDEaCySWDF9Uk=";
     };
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.12.0";
+    version = "v0.15.2";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.12.0";
+      rev = "v0.15.2";
       fetchSubmodules = false;
-      sha256 = "sha256-GRTBYwphw5rpwFzLrBRpzz6z6udNCdPn3vanfMvBtGI=";
+      sha256 = "sha256-6ddpn8ygkTZzWOIEzEETkQp7x1P9dX77bt+Q4wqH9lE=";
     };
     vendorHash = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0=";
   };
@@ -37,49 +37,49 @@
   };
   imhex = {
     pname = "imhex";
-    version = "v1.35.4";
+    version = "v1.38.1";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "v1.35.4";
+      rev = "v1.38.1";
       fetchSubmodules = true;
-      sha256 = "sha256-6QpmFkSMQpGlEzo7BHZn20c+q8CTDUB4yO87wMU5JT4=";
+      sha256 = "sha256-lkpFiXuEF72nBkPuInv683Ct1Uu+uZ0PGejI9cVEUp0=";
     };
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "0ff1bb392c36d69ef88a534ad2453998dbf74634";
+    version = "800a24b42e8487a90e5e1d41fe95ec7d34c0cb3e";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "0ff1bb392c36d69ef88a534ad2453998dbf74634";
+      rev = "800a24b42e8487a90e5e1d41fe95ec7d34c0cb3e";
       fetchSubmodules = true;
-      sha256 = "sha256-gfXjuoAR7KHQP9K6GMmCxC2qpjRiewymlmstifH6z4g=";
+      sha256 = "sha256-nrkxUN92RavwRD2E+xIq66JFCzT4qj/jWeIYbdhRoSs=";
     };
-    date = "2024-11-30";
+    date = "2026-02-09";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
-    version = "ImHex-v1.35.4";
+    version = "ImHex-v1.38.1";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "ImHex-v1.35.4";
+      rev = "ImHex-v1.38.1";
       fetchSubmodules = false;
-      sha256 = "sha256-7ch2KXkbkdRAvo3HyErWcth3kG4bzYvp9I5GZSsb/BQ=";
+      sha256 = "sha256-MqQHzR5lKWhQI6pIX1kbAPDVG18UrMJM45mtIe/ggJE=";
     };
   };
   imhex-patterns-git = {
     pname = "imhex-patterns-git";
-    version = "4c96bfbeb331efbcd0747aaaf17535798cc276dc";
+    version = "a534e2a23b61138db98fd48f31667f60eb49d84c";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "4c96bfbeb331efbcd0747aaaf17535798cc276dc";
+      rev = "a534e2a23b61138db98fd48f31667f60eb49d84c";
       fetchSubmodules = false;
-      sha256 = "sha256-g/THYAu2OvT/YKovv2oO3V1kSZV27o6DNvJtHO1IyBY=";
+      sha256 = "sha256-16Hpz9p3htNqBLRLacDVQcBf5GFII4f2DEqtjRFcKrc=";
     };
-    date = "2024-11-28";
+    date = "2026-02-07";
   };
   monokai-highcontrast = {
     pname = "monokai-highcontrast";
@@ -122,20 +122,20 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.5.10";
+    version = "0.6.17";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.5.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.5.10.zip";
-      sha256 = "sha256-gesW9nUfXBnXjm+wi5zRxfOMt46rf+wYV+vJEfLc44k=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.6.17/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.6.17.zip";
+      sha256 = "sha256-OIGe981dupmyyhjxq11/AYaV2cjvNEe4FvXBospNgu0=";
     };
   };
   vscord = {
     pname = "vscord";
-    version = "5.2.13";
+    version = "5.3.9";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.2.13/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.2.13.zip";
-      sha256 = "sha256-Jgm3ekXFLhylX7RM6tdfi+lRLrcl4UQGmRHbr27M59M=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.3.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.3.9.zip";
+      sha256 = "sha256-DZlIlxFEI4h5304771yZgQt6FiNVCqgzlH2qe1B1Riw=";
     };
   };
 }
