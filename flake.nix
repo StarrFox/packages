@@ -3,7 +3,7 @@
 
   inputs = {
     # TODO: update nixpkgs every os release
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
     flake-parts.url = "github:hercules-ci/flake-parts/";
     nix-systems.url = "github:nix-systems/default";
     nvfetcher.url = "github:berberman/nvfetcher";
@@ -28,7 +28,7 @@
             just
             deadnix
             nil
-            nvfetcher.packages.${pkgs.system}.default
+            nvfetcher.packages.${pkgs.stdenv.hostPlatform.system}.default
             nix-init
           ];
         };
