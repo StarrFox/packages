@@ -1,47 +1,38 @@
 {
-  gcc12Stdenv,
-  build_env ? gcc12Stdenv,
+  stdenv,
   cmake,
-  llvm_17,
+  llvm,
   mbedtls,
   gtk3,
   pkg-config,
   capstone,
   dbus,
   libGLU,
+  libGL,
   glfw3,
   file,
   perl,
   python3,
   curl,
   fmt,
-  #nlohmann_json,
+  nlohmann_json,
   yara,
   rsync,
   source,
   patterns_source,
-  fetchFromGitHub,
   libarchive,
   lib,
+  autoPatchelfHook,
 }:
-build_env.mkDerivation {
+stdenv.mkDerivation {
   inherit (source) pname src;
 
   version = lib.strings.removePrefix "v" source.version;
 
-  nativeBuildInputs = [cmake llvm_17 python3 perl pkg-config rsync];
+  nativeBuildInputs = [cmake llvm python3 perl pkg-config rsync autoPatchelfHook];
 
   buildInputs = [
-    # TODO: check if the version in nixpkgs has upgraded
-    (capstone.overrideAttrs {
-      version = "5.0.1";
-      src = fetchFromGitHub {
-        owner = "capstone-engine";
-        repo = "capstone";
-        rev = "5.0.1";
-        sha256 = "sha256-kKmL5sae9ruWGu1gas1mel9qM52qQOD+zLj8cRE3isg=";
-      };
-    })
+    capstone
     curl
     dbus
     file
@@ -50,21 +41,39 @@ build_env.mkDerivation {
     gtk3
     libGLU
     mbedtls
-    #nlohmann_json
+    nlohmann_json
     yara
     libarchive
   ];
 
-  cmakeFlags = [
-    "-DIMHEX_OFFLINE_BUILD=ON"
-    "-DIMHEX_IGNORE_BAD_CLONE=ON"
-    "-DUSE_SYSTEM_CAPSTONE=ON"
-    "-DUSE_SYSTEM_CURL=ON"
-    "-DUSE_SYSTEM_FMT=ON"
-    "-DUSE_SYSTEM_LLVM=ON"
-    #"-DUSE_SYSTEM_NLOHMANN_JSON=ON"
-    "-DUSE_SYSTEM_YARA=ON"
+  # autoPatchelfHook only searches for *.so and *.so.*, and won't find *.hexpluglib
+  # however, we will append to RUNPATH ourselves
+  autoPatchelfIgnoreMissingDeps = lib.optionals stdenv.hostPlatform.isLinux ["*.hexpluglib"];
+  appendRunpaths = lib.optionals stdenv.hostPlatform.isLinux [
+    (lib.makeLibraryPath [libGL])
+    "${placeholder "out"}/lib/imhex/plugins"
   ];
+
+  cmakeFlags = [
+    (lib.cmakeBool "IMHEX_OFFLINE_BUILD" true)
+    (lib.cmakeBool "IMHEX_COMPRESS_DEBUG_INFO" false) # avoids error: cannot compress debug sections (zstd not enabled)
+    (lib.cmakeBool "IMHEX_GENERATE_PACKAGE" stdenv.hostPlatform.isDarwin)
+    (lib.cmakeBool "USE_SYSTEM_CAPSTONE" true)
+    (lib.cmakeBool "USE_SYSTEM_CURL" true)
+    (lib.cmakeBool "USE_SYSTEM_FMT" true)
+    (lib.cmakeBool "USE_SYSTEM_LLVM" true)
+    (lib.cmakeBool "USE_SYSTEM_NLOHMANN_JSON" true)
+    (lib.cmakeBool "USE_SYSTEM_YARA" true)
+    (lib.cmakeFeature "CMAKE_POLICY_VERSION_MINIMUM" "3.5")
+  ];
+
+  env.NIX_CFLAGS_COMPILE = "-Wno-error=deprecated-declarations";
+
+  # Comment out fixup_bundle in PostprocessBundle.cmake as we are not building a standalone application
+  postPatch = lib.optionalString stdenv.hostPlatform.isDarwin ''
+    substituteInPlace cmake/modules/PostprocessBundle.cmake \
+      --replace-fail "fixup_bundle" "#fixup_bundle"
+  '';
 
   # TODO: rsync can be removed next update because imhex's make doesn't include them by default?
   # rsync is used here so we can not copy the _schema.json files

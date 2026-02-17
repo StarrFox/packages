@@ -1,6 +1,6 @@
 {
     "andromeda": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "andromeda",
@@ -15,12 +15,12 @@
         "version": "1.10.0"
     },
     "gh-poi": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "gh-poi",
         "passthru": {
-            "vendorHash": "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0="
+            "vendorHash": "sha256-UHkNSTRH9m6H8Wh7S7uUy5SHuGe0uAmmYuoeR76C7m0="
         },
         "pinned": false,
         "src": {
@@ -38,7 +38,7 @@
         "version": "v0.15.2"
     },
     "github-code-owners": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "github-code-owners",
@@ -53,7 +53,7 @@
         "version": "4.1.0"
     },
     "imhex": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "imhex",
@@ -74,8 +74,8 @@
         "version": "v1.38.1"
     },
     "imhex-git": {
-        "cargoLocks": null,
-        "date": "2026-02-09",
+        "cargoLock": null,
+        "date": "2026-02-12",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -87,15 +87,15 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "800a24b42e8487a90e5e1d41fe95ec7d34c0cb3e",
-            "sha256": "sha256-nrkxUN92RavwRD2E+xIq66JFCzT4qj/jWeIYbdhRoSs=",
+            "rev": "5333a337753916a9c05401831ff0fa006d83d712",
+            "sha256": "sha256-+p5ObNgQxNtbUcOeixoTMxlmfFu+0PA4tU5Ozn0OAhw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "800a24b42e8487a90e5e1d41fe95ec7d34c0cb3e"
+        "version": "5333a337753916a9c05401831ff0fa006d83d712"
     },
     "imhex-patterns": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "imhex-patterns",
@@ -116,7 +116,7 @@
         "version": "ImHex-v1.38.1"
     },
     "imhex-patterns-git": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2026-02-07",
         "extract": null,
         "name": "imhex-patterns-git",
@@ -137,7 +137,7 @@
         "version": "a534e2a23b61138db98fd48f31667f60eb49d84c"
     },
     "monokai-highcontrast": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "monokai-highcontrast",
@@ -152,7 +152,7 @@
         "version": "1.1.1"
     },
     "mrpack-install": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "mrpack-install",
@@ -175,7 +175,7 @@
         "version": "v0.16.10"
     },
     "vscode-coconut": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "vscode-coconut",
@@ -190,7 +190,7 @@
         "version": "2.2.4"
     },
     "vscode-lark": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "vscode-lark",
@@ -205,7 +205,7 @@
         "version": "0.1.0"
     },
     "vscode-zig": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "vscode-zig",
@@ -220,7 +220,7 @@
         "version": "0.6.17"
     },
     "vscord": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "vscord",

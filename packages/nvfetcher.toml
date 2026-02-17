@@ -21,7 +21,7 @@ fetch.github = "WerWolv/ImHex-Patterns"
 [gh-poi]
 src.github = "seachicken/gh-poi"
 fetch.github = "seachicken/gh-poi"
-passthru = {vendorHash = "sha256-D/YZLwwGJWCekq9mpfCECzJyJ/xSlg7fC6leJh+e8i0="}
+passthru = {vendorHash = "sha256-UHkNSTRH9m6H8Wh7S7uUy5SHuGe0uAmmYuoeR76C7m0="}
 
 [vscord]
 src.vsmarketplace = "LeonardSSH.vscord"
