@@ -33,7 +33,7 @@ jobs:
           path: flake.json
       - id: generate_packages
         run: |
-          packages=$(jq -c '.packages."x86_64-linux" | keys' < flake.json)
+          packages=$(jq -c '.inventory.packages.output.children."x86_64-linux".children | keys' < flake.json)
           printf "packages=%s" "$packages" >> $GITHUB_OUTPUT
 
   build:
