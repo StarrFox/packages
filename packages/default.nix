@@ -24,15 +24,9 @@ in rec {
   vscode-lark = pkgs.callPackage ./vscode-lark {source = source.vscode-lark;};
   github-code-owners = pkgs.callPackage ./github-code-owners {source = source.github-code-owners;};
 
-  python311 = pkgs.python311.override {
+  python314 = pkgs.python314.override {
     enableOptimizations = true;
     reproducibleBuild = false;
-    self = python311;
-  };
-
-  python312 = pkgs.python312.override {
-    enableOptimizations = true;
-    reproducibleBuild = false;
-    self = python312;
+    self = python314;
   };
 }

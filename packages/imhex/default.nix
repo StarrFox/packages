@@ -17,7 +17,6 @@
   fmt,
   nlohmann_json,
   yara,
-  rsync,
   source,
   patterns_source,
   libarchive,
@@ -29,7 +28,7 @@ stdenv.mkDerivation {
 
   version = lib.strings.removePrefix "v" source.version;
 
-  nativeBuildInputs = [cmake llvm python3 perl pkg-config rsync autoPatchelfHook];
+  nativeBuildInputs = [cmake llvm python3 perl pkg-config autoPatchelfHook];
 
   buildInputs = [
     capstone
@@ -44,6 +43,7 @@ stdenv.mkDerivation {
     nlohmann_json
     yara
     libarchive
+    llvm
   ];
 
   # autoPatchelfHook only searches for *.so and *.so.*, and won't find *.hexpluglib
@@ -69,8 +69,11 @@ stdenv.mkDerivation {
 
   env.NIX_CFLAGS_COMPILE = "-Wno-error=deprecated-declarations";
 
-  # Comment out fixup_bundle in PostprocessBundle.cmake as we are not building a standalone application
-  postPatch = lib.optionalString stdenv.hostPlatform.isDarwin ''
+  postPatch = ''
+    # Link patterns source into location expected by cmake when IMHEX_OFFLINE_BUILD is set
+    ln -s ${patterns_source.src} ImHex-Patterns
+  ''
+  + lib.optionalString stdenv.hostPlatform.isDarwin ''
     substituteInPlace cmake/modules/PostprocessBundle.cmake \
       --replace-fail "fixup_bundle" "#fixup_bundle"
   '';
@@ -78,8 +81,8 @@ stdenv.mkDerivation {
   # TODO: rsync can be removed next update because imhex's make doesn't include them by default?
   # rsync is used here so we can not copy the _schema.json files
   postInstall = ''
-    mkdir -p $out/share/imhex
-    rsync -av --exclude="*_schema.json" ${patterns_source.src}/{constants,encodings,includes,magic,patterns} $out/share/imhex
+    # without this imhex is not able to find pattern files
+    wrapProgram $out/bin/imhex --prefix XDG_DATA_DIRS : $out/share
   '';
 
   meta.mainProgram = "imhex";
