@@ -16,23 +16,23 @@
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.15.2";
+    version = "v0.16.3";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.15.2";
+      rev = "v0.16.3";
       fetchSubmodules = false;
-      sha256 = "sha256-6ddpn8ygkTZzWOIEzEETkQp7x1P9dX77bt+Q4wqH9lE=";
+      sha256 = "sha256-oRSvd5O/izfvs+sf8RW3b2aUoMG7FRJ1pWxjCMegKp8=";
     };
     vendorHash = "sha256-UHkNSTRH9m6H8Wh7S7uUy5SHuGe0uAmmYuoeR76C7m0=";
   };
   github-code-owners = {
     pname = "github-code-owners";
-    version = "4.1.0";
+    version = "4.2.0";
     src = fetchurl {
-      url = "https://chdsbd.gallery.vsassets.io/_apis/public/gallery/publisher/chdsbd/extension/github-code-owners/4.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "github-code-owners-4.1.0.zip";
-      sha256 = "sha256-/GlbPGzZV+EwdkjMWUprdggNGXF0Ws3224h4UGzA3hA=";
+      url = "https://chdsbd.gallery.vsassets.io/_apis/public/gallery/publisher/chdsbd/extension/github-code-owners/4.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "github-code-owners-4.2.0.zip";
+      sha256 = "sha256-JSPfIYVNMkZ3WGCdUWrItS5Ro/kjlfqIoLiGq/HUTB4=";
     };
   };
   imhex = {
@@ -48,15 +48,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "5333a337753916a9c05401831ff0fa006d83d712";
+    version = "3a8f19cc90b60176b6d35fb26c7d50451555b6b3";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "5333a337753916a9c05401831ff0fa006d83d712";
+      rev = "3a8f19cc90b60176b6d35fb26c7d50451555b6b3";
       fetchSubmodules = true;
-      sha256 = "sha256-+p5ObNgQxNtbUcOeixoTMxlmfFu+0PA4tU5Ozn0OAhw=";
+      sha256 = "sha256-Ho8qwFI1/SJgmp7Xfgmmd18+6iD3RaxSxORNFVq5t1s=";
     };
-    date = "2026-02-12";
+    date = "2026-03-28";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
@@ -122,11 +122,11 @@
   };
   vscode-zig = {
     pname = "vscode-zig";
-    version = "0.6.17";
+    version = "0.6.18";
     src = fetchurl {
-      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.6.17/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-zig-0.6.17.zip";
-      sha256 = "sha256-OIGe981dupmyyhjxq11/AYaV2cjvNEe4FvXBospNgu0=";
+      url = "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.6.18/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-zig-0.6.18.zip";
+      sha256 = "sha256-jn/2Nmz6N84BCWnRdnM8w5AdiF2hh55h39SDTmRry5I=";
     };
   };
   vscord = {
