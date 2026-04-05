@@ -26,6 +26,11 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@main
       - name: generate flake.json
         run: nix flake show --json > flake.json
+      - name: artifact flake.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: flake.json
+          path: flake.json
       - id: generate_packages
         run: |
           packages=$(jq -c '.packages."x86_64-linux" | keys' < flake.json)
