@@ -70,14 +70,15 @@ stdenv.mkDerivation {
 
   env.NIX_CFLAGS_COMPILE = "-Wno-error=deprecated-declarations";
 
-  postPatch = ''
-    # Link patterns source into location expected by cmake when IMHEX_OFFLINE_BUILD is set
-    ln -s ${patterns_source.src} ImHex-Patterns
-  ''
-  + lib.optionalString stdenv.hostPlatform.isDarwin ''
-    substituteInPlace cmake/modules/PostprocessBundle.cmake \
-      --replace-fail "fixup_bundle" "#fixup_bundle"
-  '';
+  postPatch =
+    ''
+      # Link patterns source into location expected by cmake when IMHEX_OFFLINE_BUILD is set
+      ln -s ${patterns_source.src} ImHex-Patterns
+    ''
+    + lib.optionalString stdenv.hostPlatform.isDarwin ''
+      substituteInPlace cmake/modules/PostprocessBundle.cmake \
+        --replace-fail "fixup_bundle" "#fixup_bundle"
+    '';
 
   postInstall = ''
     # without this imhex is not able to find pattern files
