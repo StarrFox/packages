@@ -22,13 +22,14 @@
   libarchive,
   lib,
   autoPatchelfHook,
+  makeWrapper,
 }:
 stdenv.mkDerivation {
   inherit (source) pname src;
 
   version = lib.strings.removePrefix "v" source.version;
 
-  nativeBuildInputs = [cmake llvm python3 perl pkg-config autoPatchelfHook];
+  nativeBuildInputs = [cmake llvm python3 perl pkg-config autoPatchelfHook makeWrapper];
 
   buildInputs = [
     capstone
@@ -78,8 +79,6 @@ stdenv.mkDerivation {
       --replace-fail "fixup_bundle" "#fixup_bundle"
   '';
 
-  # TODO: rsync can be removed next update because imhex's make doesn't include them by default?
-  # rsync is used here so we can not copy the _schema.json files
   postInstall = ''
     # without this imhex is not able to find pattern files
     wrapProgram $out/bin/imhex --prefix XDG_DATA_DIRS : $out/share
