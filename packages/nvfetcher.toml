@@ -27,10 +27,6 @@ passthru = {vendorHash = "sha256-UHkNSTRH9m6H8Wh7S7uUy5SHuGe0uAmmYuoeR76C7m0="}
 src.vsmarketplace = "LeonardSSH.vscord"
 fetch.vsmarketplace = "LeonardSSH.vscord"
 
-[vscode-zig]
-src.vsmarketplace = "ziglang.vscode-zig"
-fetch.vsmarketplace = "ziglang.vscode-zig"
-
 [andromeda]
 src.vsmarketplace = "EliverLara.andromeda"
 fetch.vsmarketplace = "EliverLara.andromeda"

@@ -204,21 +204,6 @@
         },
         "version": "0.1.0"
     },
-    "vscode-zig": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "vscode-zig",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": "vscode-zig-0.6.18.zip",
-            "sha256": "sha256-jn/2Nmz6N84BCWnRdnM8w5AdiF2hh55h39SDTmRry5I=",
-            "type": "url",
-            "url": "https://ziglang.gallery.vsassets.io/_apis/public/gallery/publisher/ziglang/extension/vscode-zig/0.6.18/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.6.18"
-    },
     "vscord": {
         "cargoLock": null,
         "date": null,

@@ -18,7 +18,6 @@ in rec {
   # TODO: try putting these in a subattr set; i.e. vscode-extensions.chdsbd.github-code-owners
   andromeda = pkgs.callPackage ./andromeda {source = source.andromeda;};
   vscord = pkgs.callPackage ./vscord {source = source.vscord;};
-  vscode-zig = pkgs.callPackage ./vscode-zig {source = source.vscode-zig;};
   vscode-coconut = pkgs.callPackage ./vscode-coconut {source = source.vscode-coconut;};
   monokai-highcontrast = pkgs.callPackage ./monokai-highcontrast {source = source.monokai-highcontrast;};
   vscode-lark = pkgs.callPackage ./vscode-lark {source = source.vscode-lark;};
