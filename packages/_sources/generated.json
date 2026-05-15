@@ -30,12 +30,12 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.17.0",
-            "sha256": "sha256-GFJWZBVRE6tz033NI5zcJIs3ziVa1KoPggKn/o65mDE=",
+            "rev": "v0.17.1",
+            "sha256": "sha256-sDir+/b2NmHkROx4gf9OwKpLjZCgkUmaj7IdQDIllsk=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.17.0"
+        "version": "v0.17.1"
     },
     "github-code-owners": {
         "cargoLock": null,
@@ -75,7 +75,7 @@
     },
     "imhex-git": {
         "cargoLock": null,
-        "date": "2026-04-18",
+        "date": "2026-04-30",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -87,12 +87,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "a89d71104419a4517a371830fa7f42fdc5492752",
-            "sha256": "sha256-AGQHnJmVQOTbTtDWMtEJbll9h7fNsiXzQTYPs+un2m0=",
+            "rev": "c6045c7044668b5d9b6442aad837f888d4ba4933",
+            "sha256": "sha256-rjN55CPSdxesbqtsFP0o1eBbRBE+mQxFIoPXqcqq5Hk=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "a89d71104419a4517a371830fa7f42fdc5492752"
+        "version": "c6045c7044668b5d9b6442aad837f888d4ba4933"
     },
     "imhex-patterns": {
         "cargoLock": null,
@@ -117,7 +117,7 @@
     },
     "imhex-patterns-git": {
         "cargoLock": null,
-        "date": "2026-04-13",
+        "date": "2026-05-14",
         "extract": null,
         "name": "imhex-patterns-git",
         "passthru": null,
@@ -129,12 +129,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "ed01d41bed187b34df33047632e1935dbb902462",
-            "sha256": "sha256-Q556Q7VzRIm/hlXDAn9bU+7FA8VpEs9+6H4WmTcq8HQ=",
+            "rev": "1333c2aae319a0578f2a8ddcccf7e2e7ed351129",
+            "sha256": "sha256-vgmwfnIKRath+Xq3ODvLo/IkMtUzyk38uZDTWPc90ic=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ed01d41bed187b34df33047632e1935dbb902462"
+        "version": "1333c2aae319a0578f2a8ddcccf7e2e7ed351129"
     },
     "monokai-highcontrast": {
         "cargoLock": null,
