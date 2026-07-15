@@ -17,6 +17,7 @@
   fmt,
   nlohmann_json,
   yara,
+  wayland-scanner,
   source,
   patterns_source,
   libarchive,
@@ -29,7 +30,7 @@ stdenv.mkDerivation {
 
   version = lib.strings.removePrefix "v" source.version;
 
-  nativeBuildInputs = [cmake llvm python3 perl pkg-config autoPatchelfHook makeWrapper];
+  nativeBuildInputs = [cmake llvm python3 perl pkg-config autoPatchelfHook makeWrapper wayland-scanner];
 
   buildInputs = [
     capstone
