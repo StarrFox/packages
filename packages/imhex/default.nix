@@ -18,7 +18,7 @@
   nlohmann_json,
   yara,
   wayland-scanner,
-  xkbcommon,
+  libxkbcommon,
   source,
   patterns_source,
   libarchive,
@@ -47,7 +47,7 @@ stdenv.mkDerivation {
     yara
     libarchive
     llvm
-    xkbcommon
+    libxkbcommon
   ];
 
   # autoPatchelfHook only searches for *.so and *.so.*, and won't find *.hexpluglib
