@@ -30,12 +30,12 @@
             "name": null,
             "owner": "seachicken",
             "repo": "gh-poi",
-            "rev": "v0.18.3",
-            "sha256": "sha256-0PB5+zqFITerMjjCl5wDBPahbRy6sr4Kl90EQCewSKU=",
+            "rev": "v0.18.6",
+            "sha256": "sha256-sjMbHBWFzML0xXbAT+h+KAb+o6dGS2Oj8VOpYIwg1jU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.18.3"
+        "version": "v0.18.6"
     },
     "github-code-owners": {
         "cargoLock": null,
@@ -75,7 +75,7 @@
     },
     "imhex-git": {
         "cargoLock": null,
-        "date": "2026-07-31",
+        "date": "2026-10-08",
         "extract": null,
         "name": "imhex-git",
         "passthru": null,
@@ -87,12 +87,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "imhex",
-            "rev": "29fe6f6242a84a2026701d2745aec757981b2781",
-            "sha256": "sha256-meFDhrrdZQocBfoI/Z/wO1ulIRgyTkiYIaRRPKQhkVU=",
+            "rev": "34483cb90527cd71c92049ef3b1b2cc27936a1d4",
+            "sha256": "sha256-gDz4mYEJBXrDmZ6uezc5M2E22jA1VJC8vBgKSgaDX10=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "29fe6f6242a84a2026701d2745aec757981b2781"
+        "version": "34483cb90527cd71c92049ef3b1b2cc27936a1d4"
     },
     "imhex-patterns": {
         "cargoLock": null,
@@ -117,7 +117,7 @@
     },
     "imhex-patterns-git": {
         "cargoLock": null,
-        "date": "2026-07-31",
+        "date": "2026-09-22",
         "extract": null,
         "name": "imhex-patterns-git",
         "passthru": null,
@@ -129,12 +129,12 @@
             "name": null,
             "owner": "WerWolv",
             "repo": "ImHex-Patterns",
-            "rev": "30d77a80382793aa7cdb9170bf00880e2456e9df",
-            "sha256": "sha256-Ge1PkTXsSNhxYfKkhipbLufpdYMkA2GEY2+S9N/V7r8=",
+            "rev": "e07e98adc810f0c052035ee1fdabae7ec65110e2",
+            "sha256": "sha256-DWl+tWuqgMI6aRxjvvR7fkLtINnVi5EoY5SV47ygQ2w=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "30d77a80382793aa7cdb9170bf00880e2456e9df"
+        "version": "e07e98adc810f0c052035ee1fdabae7ec65110e2"
     },
     "monokai-highcontrast": {
         "cargoLock": null,
@@ -212,11 +212,11 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "name": "vscord-5.3.9.zip",
-            "sha256": "sha256-DZlIlxFEI4h5304771yZgQt6FiNVCqgzlH2qe1B1Riw=",
+            "name": "vscord-5.3.11.zip",
+            "sha256": "sha256-BHFCrGU2UVLFABoXKzQnaW4dtiErYWVojCQqYR77f3w=",
             "type": "url",
-            "url": "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.3.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.3.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "5.3.9"
+        "version": "5.3.11"
     }
 }
