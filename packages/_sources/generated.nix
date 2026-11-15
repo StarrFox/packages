@@ -16,23 +16,23 @@
   };
   gh-poi = {
     pname = "gh-poi";
-    version = "v0.18.3";
+    version = "v0.18.7";
     src = fetchFromGitHub {
       owner = "seachicken";
       repo = "gh-poi";
-      rev = "v0.18.3";
+      rev = "v0.18.7";
       fetchSubmodules = false;
-      sha256 = "sha256-0PB5+zqFITerMjjCl5wDBPahbRy6sr4Kl90EQCewSKU=";
+      sha256 = "sha256-nl7HwVIcAnBVga90Gumz9vAVIqlbexeu7knmRlPfH18=";
     };
     vendorHash = "sha256-o3ys+Em27sx3VS3AQIP7G/tWRiBlPnvBq37jLtj9QVQ=";
   };
   github-code-owners = {
     pname = "github-code-owners";
-    version = "4.2.0";
+    version = "5.2.0";
     src = fetchurl {
-      url = "https://chdsbd.gallery.vsassets.io/_apis/public/gallery/publisher/chdsbd/extension/github-code-owners/4.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "github-code-owners-4.2.0.zip";
-      sha256 = "sha256-JSPfIYVNMkZ3WGCdUWrItS5Ro/kjlfqIoLiGq/HUTB4=";
+      url = "https://chdsbd.gallery.vsassets.io/_apis/public/gallery/publisher/chdsbd/extension/github-code-owners/5.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "github-code-owners-5.2.0.zip";
+      sha256 = "sha256-WuA6No8y9Dc1HXPei09zk4+nZnKC+IHBR33bpv1jAuI=";
     };
   };
   imhex = {
@@ -48,15 +48,15 @@
   };
   imhex-git = {
     pname = "imhex-git";
-    version = "29fe6f6242a84a2026701d2745aec757981b2781";
+    version = "34483cb90527cd71c92049ef3b1b2cc27936a1d4";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "imhex";
-      rev = "29fe6f6242a84a2026701d2745aec757981b2781";
+      rev = "34483cb90527cd71c92049ef3b1b2cc27936a1d4";
       fetchSubmodules = true;
-      sha256 = "sha256-meFDhrrdZQocBfoI/Z/wO1ulIRgyTkiYIaRRPKQhkVU=";
+      sha256 = "sha256-gDz4mYEJBXrDmZ6uezc5M2E22jA1VJC8vBgKSgaDX10=";
     };
-    date = "2026-07-31";
+    date = "2026-10-08";
   };
   imhex-patterns = {
     pname = "imhex-patterns";
@@ -71,15 +71,15 @@
   };
   imhex-patterns-git = {
     pname = "imhex-patterns-git";
-    version = "30d77a80382793aa7cdb9170bf00880e2456e9df";
+    version = "d2d3e7cc9aac64804d5e232591645f844748a989";
     src = fetchFromGitHub {
       owner = "WerWolv";
       repo = "ImHex-Patterns";
-      rev = "30d77a80382793aa7cdb9170bf00880e2456e9df";
+      rev = "d2d3e7cc9aac64804d5e232591645f844748a989";
       fetchSubmodules = false;
-      sha256 = "sha256-Ge1PkTXsSNhxYfKkhipbLufpdYMkA2GEY2+S9N/V7r8=";
+      sha256 = "sha256-+aMS3dU3QUlwQ8YebZZUCztO65QOti8LFxqh7+AUDAM=";
     };
-    date = "2026-07-31";
+    date = "2026-11-07";
   };
   monokai-highcontrast = {
     pname = "monokai-highcontrast";
@@ -92,13 +92,13 @@
   };
   mrpack-install = {
     pname = "mrpack-install";
-    version = "v0.16.10";
+    version = "v0.23.0";
     src = fetchFromGitHub {
       owner = "nothub";
       repo = "mrpack-install";
-      rev = "v0.16.10";
+      rev = "v0.23.0";
       fetchSubmodules = false;
-      sha256 = "sha256-mTAXFK97t10imdICpg0UI4YLF744oscJqoOIBG5GEkc=";
+      sha256 = "sha256-VoGUWN1AZRXGl/4MjoC0vNN2saWuOCS++Wl2M4zda+w=";
     };
     vendorHash = "sha256-az+NpP/hCIq2IfO8Bmn/qG3JVypeDljJ0jWg6yT6hks=";
   };
@@ -122,11 +122,11 @@
   };
   vscord = {
     pname = "vscord";
-    version = "5.3.9";
+    version = "5.3.12";
     src = fetchurl {
-      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.3.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscord-5.3.9.zip";
-      sha256 = "sha256-DZlIlxFEI4h5304771yZgQt6FiNVCqgzlH2qe1B1Riw=";
+      url = "https://LeonardSSH.gallery.vsassets.io/_apis/public/gallery/publisher/LeonardSSH/extension/vscord/5.3.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscord-5.3.12.zip";
+      sha256 = "sha256-XZ3gGR596jTuxxQEva1cyRqq5fCcvdM6pkF1EBDQ8uw=";
     };
   };
 }
